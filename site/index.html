@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>B-Side: Music RSS</title>
+<meta name="description" content="Every music magazine, genre blog, newsletter, podcast and YouTube channel in one feed, updated through the day.">
+<link rel="alternate" type="application/rss+xml" title="B-Side Music RSS: everything" href="feeds/all.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,500;6..96,700&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  /* Layout: masthead, section tabs, then one chronological river of stories grouped by day; feeds and downloads in a side column */
+  --paper:#f6f5f2; --ink:#121212; --muted:#6b6862; --rule:#d9d6cf; --accent:#2340d9; --chip:#ebe9e4;
+  --display:"Bodoni Moda","Didot","Bodoni 72",Georgia,serif;
+  --body:"Instrument Sans","Helvetica Neue",Arial,sans-serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){:root{--paper:#111;--ink:#f1efea;--muted:#a19d95;--rule:#2e2d2a;--accent:#8a9dff;--chip:#1e1d1b;color-scheme:dark}}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.45}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.wrap{max-width:1180px;margin:0 auto;padding:0 20px}
+header{border-bottom:2px solid var(--ink);padding:26px 0 16px}
+.kicker{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+h1{font-family:var(--display);font-weight:700;font-size:clamp(44px,8vw,92px);line-height:.92;margin:10px 0 8px;letter-spacing:-.01em}
+.dek{max-width:66ch;color:var(--muted);margin:0}
+nav.tabs{display:flex;gap:0;overflow-x:auto;border-bottom:1px solid var(--rule)}
+nav.tabs button{background:none;border:0;border-bottom:3px solid transparent;padding:12px 14px;font:inherit;font-size:14px;color:var(--muted);cursor:pointer;white-space:nowrap}
+nav.tabs button[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--ink);font-weight:600}
+nav.tabs button span{font-size:11px;font-variant-numeric:tabular-nums;margin-left:4px;opacity:.7}
+.tools{display:flex;gap:10px;flex-wrap:wrap;align-items:center;padding:12px 0;position:sticky;top:0;background:var(--paper);z-index:4;border-bottom:1px solid var(--rule)}
+.tools input,.tools select{padding:9px 11px;border:1px solid var(--rule);background:var(--paper);color:var(--ink);font:inherit;font-size:14px}
+.tools input{flex:1 1 240px;border-color:var(--ink)}
+.tools select{max-width:260px}
+.status{font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums;margin-left:auto}
+.layout{display:grid;grid-template-columns:minmax(0,1fr) 280px;gap:40px;align-items:start}
+.river{list-style:none;margin:0;padding:0 0 60px}
+.day{font-family:var(--display);font-size:24px;padding:24px 0 6px;border-bottom:1px solid var(--ink)}
+.item{display:grid;grid-template-columns:minmax(0,1fr) 128px;gap:18px;padding:15px 0;border-bottom:1px solid var(--rule)}
+.item.noimg{grid-template-columns:1fr}
+.item h2{font-family:var(--display);font-weight:500;font-size:21px;line-height:1.2;margin:4px 0 6px;text-wrap:balance}
+.item h2 a{text-decoration:none}
+.item h2 a:hover{color:var(--accent)}
+.item p{margin:0;color:var(--muted);font-size:14px;max-width:66ch;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.item img{width:128px;height:128px;object-fit:cover;background:var(--chip)}
+.by{font-size:12px;color:var(--muted);display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.by b{color:var(--ink);font-weight:600}
+.tag{font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;padding:1px 6px;background:var(--chip)}
+aside{position:sticky;top:70px;padding-top:20px;display:grid;gap:22px;font-size:14px}
+aside h3{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:0 0 8px;font-weight:600}
+aside ul{list-style:none;margin:0;padding:0;display:grid;gap:4px}
+aside a{text-decoration:none;border-bottom:1px solid var(--rule)}
+aside a:hover{color:var(--accent);border-color:var(--accent)}
+.feedurl{font-size:12px;color:var(--muted)}
+.more{display:block;margin:20px 0;padding:11px 20px;border:1px solid var(--ink);background:var(--ink);color:var(--paper);font:inherit;cursor:pointer}
+.more[hidden]{display:none}
+.empty{padding:40px 0;color:var(--muted)}
+@media (max-width:900px){.layout{grid-template-columns:1fr}aside{position:static}.item{grid-template-columns:minmax(0,1fr) 88px}.item img{width:88px;height:88px}}
+</style>
+</head>
+<body>
+<header class="wrap">
+  <div class="kicker"><span>B-Side · Music RSS</span><span id="updated">Loading…</span></div>
+  <h1>B-Side</h1>
+  <p class="dek">The latest from Pitchfork, Rolling Stone, NME and the music press, plus 1,200 genre blogs from hip-hop and techno to doom metal and bluegrass, the trade and production sites, newsletters, podcasts and YouTube critics, gathered into one river and refreshed through the day.</p>
+</header>
+<div class="wrap">
+  <nav class="tabs" id="tabs" role="tablist" aria-label="Sections"></nav>
+  <div class="tools">
+    <input id="q" type="search" placeholder="Search stories and sources…" aria-label="Search stories">
+    <select id="src" aria-label="Source"><option value="">All sources</option></select>
+    <select id="country" aria-label="Country"><option value="">All countries</option></select>
+    <span class="status" id="status"></span>
+  </div>
+  <div class="layout">
+    <main>
+      <ul class="river" id="river"><li class="empty">Loading stories…</li></ul>
+      <button class="more" id="more" type="button" hidden>Show more stories</button>
+    </main>
+    <aside>
+      <section><h3>Subscribe</h3><ul id="feedlist"></ul><p class="feedurl">Paste any of these into Feedly, Inoreader, NetNewsWire or Reeder.</p></section>
+      <section><h3>Download</h3><ul>
+        <li><a href="music-feeds.opml">All source feeds (OPML)</a></li>
+        <li><a href="directory.csv">Full directory, 2,500+ sources (CSV)</a></li>
+        <li><a href="data/health.json">Feed status from the last run</a></li>
+      </ul></section>
+    </aside>
+  </div>
+</div>
+<script>
+const SECTIONS=[
+ ['all','Everything',()=>true],
+ ['publications','Publications',i=>i.category==='Publication'],
+ ['blogs','Blogs',i=>i.category==='Blog / Independent Site'],
+ ['hiphop','Hip-Hop & R&B',i=>i.genre==='Hip-Hop / R&B'],
+ ['electronic','Electronic',i=>i.genre==='Electronic / Dance'],
+ ['rock','Rock & Metal',i=>i.genre==='Rock / Metal / Punk'],
+ ['indie','Indie',i=>i.genre==='Indie / Alternative'],
+ ['pop','Pop',i=>i.genre==='Pop'],
+ ['jazz','Jazz & Classical',i=>i.genre==='Jazz / Classical'],
+ ['roots','Roots & Blues',i=>i.genre==='Country / Folk / Roots / Blues'],
+ ['global','Global',i=>i.genre==='Global'],
+ ['industry','Industry & Gear',i=>i.genre==='Industry / Production / Gear'],
+ ['newsletters','Newsletters',i=>i.kind==='newsletter'],
+ ['podcasts','Podcasts',i=>i.kind==='podcast'],
+ ['youtube','YouTube',i=>i.kind==='youtube'],
+ ['instagram','Instagram',i=>i.kind==='instagram'],
+];
+const $=id=>document.getElementById(id);
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+let ITEMS=[],tab=(location.hash||'#all').slice(1),view=[],shown=0;
+if(!SECTIONS.some(s=>s[0]===tab))tab='all';
+function counts(){return Object.fromEntries(SECTIONS.map(([k,,f])=>[k,ITEMS.filter(f).length]))}
+function renderTabs(){const c=counts();
+  $('tabs').innerHTML=SECTIONS.filter(([k])=>k==='all'||c[k]).map(([k,l])=>`<button role="tab" type="button" data-k="${k}" aria-selected="${k===tab}">${esc(l)}<span>${c[k].toLocaleString()}</span></button>`).join('');
+  $('tabs').querySelectorAll('button').forEach(b=>b.onclick=()=>{tab=b.dataset.k;history.replaceState(null,'','#'+tab);renderTabs();apply()});
+  $('feedlist').innerHTML=SECTIONS.filter(([k])=>k==='all'||c[k]).map(([k,l])=>`<li><a href="feeds/${k}.xml">${esc(l)}</a> <span class="feedurl">feeds/${k}.xml</span></li>`).join('');
+}
+function dayLabel(ts){const d=new Date(ts*1000),n=new Date();const a=new Date(d.getFullYear(),d.getMonth(),d.getDate()),b=new Date(n.getFullYear(),n.getMonth(),n.getDate());const diff=Math.round((b-a)/864e5);
+  return diff===0?'Today':diff===1?'Yesterday':d.toLocaleDateString(undefined,{weekday:'long',month:'long',day:'numeric'})}
+function when(ts){const m=Math.round((Date.now()/1000-ts)/60);return m<60?`${Math.max(m,1)}m ago`:m<1440?`${Math.round(m/60)}h ago`:new Date(ts*1000).toLocaleTimeString(undefined,{hour:'numeric',minute:'2-digit'})}
+const KIND={youtube:'YouTube',newsletter:'Newsletter',podcast:'Podcast',instagram:'Instagram'};
+function card(i){return `<li class="item ${i.image?'':'noimg'}"><div><div class="by"><b>${esc(i.source)}</b>${KIND[i.kind]?`<span class="tag">${KIND[i.kind]}</span>`:''}${i.country?`<span>${esc(i.country)}</span>`:''}<span>${when(i.ts)}</span></div><h2><a href="${esc(i.link)}" target="_blank" rel="noopener">${esc(i.title)}</a></h2>${i.summary&&i.summary!==i.title?`<p>${esc(i.summary)}</p>`:''}</div>${i.image?`<img src="${esc(i.image)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.classList.add('noimg');this.remove()">`:''}</li>`}
+let lastDay='';
+function apply(){
+  const f=SECTIONS.find(s=>s[0]===tab)[2],q=$('q').value.trim().toLowerCase(),s=$('src').value,c=$('country').value;
+  view=ITEMS.filter(i=>f(i)&&(!s||i.source===s)&&(!c||i.country===c)&&(!q||(i.title+' '+i.summary+' '+i.source).toLowerCase().includes(q)));
+  shown=0;lastDay='';$('river').innerHTML=view.length?'':'<li class="empty">No stories match. Try another section or clear the search.</li>';more();
+}
+function more(){let h='';for(const i of view.slice(shown,shown+120)){const d=dayLabel(i.ts);if(d!==lastDay){h+=`<li class="day">${esc(d)}</li>`;lastDay=d}h+=card(i)}
+  shown=Math.min(view.length,shown+120);$('river').insertAdjacentHTML('beforeend',h);$('more').hidden=shown>=view.length;
+  $('status').textContent=`${view.length.toLocaleString()} stories`}
+$('more').onclick=more;
+$('q').addEventListener('input',apply);['src','country'].forEach(id=>$(id).addEventListener('change',apply));
+fetch('data/items.json',{cache:'no-cache'}).then(r=>r.json()).then(d=>{
+  ITEMS=d.items||[];
+  const up=new Date(d.updated);$('updated').textContent=`Updated ${up.toLocaleString(undefined,{month:'short',day:'numeric',hour:'numeric',minute:'2-digit'})} · ${d.sources_ok} of ${d.sources_tried} feeds responded`;
+  const add=(sel,vals)=>vals.forEach(v=>sel.insertAdjacentHTML('beforeend',`<option>${esc(v)}</option>`));
+  add($('src'),[...new Set(ITEMS.map(i=>i.source))].sort());add($('country'),[...new Set(ITEMS.map(i=>i.country).filter(Boolean))].sort());
+  renderTabs();apply();
+}).catch(()=>{$('river').innerHTML='<li class="empty">No stories yet. The first update runs a few minutes after the site is set up; reload then.</li>';$('updated').textContent='Waiting for first update'});
+</script>
+</body>
+</html>
