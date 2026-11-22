@@ -57,6 +57,9 @@ aside a:hover{color:var(--accent);border-color:var(--accent)}
 .feedurl{font-size:12px;color:var(--muted)}
 .more{display:block;margin:20px 0;padding:11px 20px;border:1px solid var(--ink);background:var(--ink);color:var(--paper);font:inherit;cursor:pointer}
 .more[hidden]{display:none}
+.save{margin-left:auto;background:none;border:1px solid var(--rule);color:var(--muted);font:inherit;font-size:12px;padding:3px 9px;cursor:pointer;border-radius:2px}
+.save:hover{border-color:var(--ink);color:var(--ink)}
+.save[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:var(--paper)}
 .empty{padding:40px 0;color:var(--muted)}
 @media (max-width:900px){.layout{grid-template-columns:1fr}aside{position:static}.item{grid-template-columns:minmax(0,1fr) 88px}.item img{width:88px;height:88px}}
 </style>
@@ -112,28 +115,38 @@ const SECTIONS=[
 const $=id=>document.getElementById(id);
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 let ITEMS=[],tab=(location.hash||'#all').slice(1),view=[],shown=0;
+const SKEY='bside-saved';let SAVED={};
+try{SAVED=JSON.parse(localStorage.getItem(SKEY)||'{}')||{}}catch(_){SAVED={}}
+function persist(){try{localStorage.setItem(SKEY,JSON.stringify(SAVED))}catch(_){}}
+SECTIONS.splice(1,0,['saved','Saved',i=>!!SAVED[i.link]]);
 if(!SECTIONS.some(s=>s[0]===tab))tab='all';
-function counts(){return Object.fromEntries(SECTIONS.map(([k,,f])=>[k,ITEMS.filter(f).length]))}
+function counts(){const c=Object.fromEntries(SECTIONS.map(([k,,f])=>[k,ITEMS.filter(f).length]));c.saved=Object.keys(SAVED).length;return c}
 function renderTabs(){const c=counts();
-  $('tabs').innerHTML=SECTIONS.filter(([k])=>k==='all'||c[k]).map(([k,l])=>`<button role="tab" type="button" data-k="${k}" aria-selected="${k===tab}">${esc(l)}<span>${c[k].toLocaleString()}</span></button>`).join('');
+  $('tabs').innerHTML=SECTIONS.filter(([k])=>k==='all'||k==='saved'||c[k]).map(([k,l])=>`<button role="tab" type="button" data-k="${k}" aria-selected="${k===tab}">${esc(l)}<span>${c[k].toLocaleString()}</span></button>`).join('');
   $('tabs').querySelectorAll('button').forEach(b=>b.onclick=()=>{tab=b.dataset.k;history.replaceState(null,'','#'+tab);renderTabs();apply()});
-  $('feedlist').innerHTML=SECTIONS.filter(([k])=>k==='all'||c[k]).map(([k,l])=>`<li><a href="feeds/${k}.xml">${esc(l)}</a> <span class="feedurl">feeds/${k}.xml</span></li>`).join('');
+  $('feedlist').innerHTML=SECTIONS.filter(([k])=>k!=='saved'&&(k==='all'||c[k])).map(([k,l])=>`<li><a href="feeds/${k}.xml">${esc(l)}</a> <span class="feedurl">feeds/${k}.xml</span></li>`).join('');
 }
 function dayLabel(ts){const d=new Date(ts*1000),n=new Date();const a=new Date(d.getFullYear(),d.getMonth(),d.getDate()),b=new Date(n.getFullYear(),n.getMonth(),n.getDate());const diff=Math.round((b-a)/864e5);
   return diff===0?'Today':diff===1?'Yesterday':d.toLocaleDateString(undefined,{weekday:'long',month:'long',day:'numeric'})}
 function when(ts){const m=Math.round((Date.now()/1000-ts)/60);return m<60?`${Math.max(m,1)}m ago`:m<1440?`${Math.round(m/60)}h ago`:new Date(ts*1000).toLocaleTimeString(undefined,{hour:'numeric',minute:'2-digit'})}
 const KIND={youtube:'YouTube',newsletter:'Newsletter',podcast:'Podcast',instagram:'Instagram'};
-function card(i){return `<li class="item ${i.image?'':'noimg'}"><div><div class="by"><b>${esc(i.source)}</b>${KIND[i.kind]?`<span class="tag">${KIND[i.kind]}</span>`:''}${i.country?`<span>${esc(i.country)}</span>`:''}<span>${when(i.ts)}</span></div><h2><a href="${esc(i.link)}" target="_blank" rel="noopener">${esc(i.title)}</a></h2>${i.summary&&i.summary!==i.title?`<p>${esc(i.summary)}</p>`:''}</div>${i.image?`<img src="${esc(i.image)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.classList.add('noimg');this.remove()">`:''}</li>`}
+function card(i){return `<li class="item ${i.image?'':'noimg'}"><div><div class="by"><b>${esc(i.source)}</b>${KIND[i.kind]?`<span class="tag">${KIND[i.kind]}</span>`:''}${i.country?`<span>${esc(i.country)}</span>`:''}<span>${when(i.ts)}</span><button class="save" type="button" data-link="${esc(i.link)}" aria-pressed="${!!SAVED[i.link]}">${SAVED[i.link]?'Saved':'Save'}</button></div><h2><a href="${esc(i.link)}" target="_blank" rel="noopener">${esc(i.title)}</a></h2>${i.summary&&i.summary!==i.title?`<p>${esc(i.summary)}</p>`:''}</div>${i.image?`<img src="${esc(i.image)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.classList.add('noimg');this.remove()">`:''}</li>`}
 let lastDay='';
 function apply(){
   const f=SECTIONS.find(s=>s[0]===tab)[2],q=$('q').value.trim().toLowerCase(),s=$('src').value,c=$('country').value;
-  view=ITEMS.filter(i=>f(i)&&(!s||i.source===s)&&(!c||i.country===c)&&(!q||(i.title+' '+i.summary+' '+i.source).toLowerCase().includes(q)));
-  shown=0;lastDay='';$('river').innerHTML=view.length?'':'<li class="empty">No stories match. Try another section or clear the search.</li>';more();
+  const pool=tab==='saved'?Object.values(SAVED).sort((a,b)=>(b.savedAt||0)-(a.savedAt||0)):ITEMS;
+  view=pool.filter(i=>(tab==='saved'||f(i))&&(!s||i.source===s)&&(!c||i.country===c)&&(!q||(i.title+' '+i.summary+' '+i.source).toLowerCase().includes(q)));
+  shown=0;lastDay='';$('river').innerHTML=view.length?'':`<li class="empty">${tab==='saved'&&!Object.keys(SAVED).length?'Nothing saved yet. Press Save on any story to keep it here; saved stories stay even after they drop out of the feed.':'No stories match. Try another section or clear the search.'}</li>`;more();
 }
 function more(){let h='';for(const i of view.slice(shown,shown+120)){const d=dayLabel(i.ts);if(d!==lastDay){h+=`<li class="day">${esc(d)}</li>`;lastDay=d}h+=card(i)}
   shown=Math.min(view.length,shown+120);$('river').insertAdjacentHTML('beforeend',h);$('more').hidden=shown>=view.length;
   $('status').textContent=`${view.length.toLocaleString()} stories`}
 $('more').onclick=more;
+$('river').addEventListener('click',e=>{const b=e.target.closest('button.save');if(!b)return;const l=b.dataset.link;
+  if(SAVED[l]){delete SAVED[l]}else{const it=ITEMS.find(i=>i.link===l);if(!it)return;SAVED[l]={...it,savedAt:Date.now()}}
+  persist();const on=!!SAVED[l];b.setAttribute('aria-pressed',on);b.textContent=on?'Saved':'Save';
+  const t=$('tabs').querySelector('[data-k="saved"] span');if(t)t.textContent=Object.keys(SAVED).length;
+  if(tab==='saved'&&!on){b.closest('li').remove();$('status').textContent=`${Object.keys(SAVED).length} stories`}});
 $('q').addEventListener('input',apply);['src','country'].forEach(id=>$(id).addEventListener('change',apply));
 fetch('data/items.json',{cache:'no-cache'}).then(r=>r.json()).then(d=>{
   ITEMS=d.items||[];
