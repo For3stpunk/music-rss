@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T23:31:29+00:00",
+ "updated": "2026-11-22T05:21:03+00:00",
  "feeds": {
   "NME": {
    "url": "https://www.nme.com/feed",
@@ -818,7 +818,7 @@
   },
   "IndieTapes": {
    "url": "https://indie-tapes.com/rss",
-   "status": "HTTPError 404",
+   "status": "HTTPError 429",
    "stories": 0
   },
   "Kid with a Vinyl": {
@@ -1034,7 +1034,7 @@
   "Los Angeles Times – Music": {
    "url": "https://www.latimes.com/entertainment-arts/music.rss",
    "status": "ok",
-   "stories": 16
+   "stories": 17
   },
   "Ear To The Ground Music": {
    "url": "https://www.eartothegroundmusic.co/feed/",
@@ -1048,7 +1048,7 @@
   },
   "Alt Citizen": {
    "url": "http://altcitizen.com/feed/",
-   "status": "TimeoutError",
+   "status": "HTTPError 503",
    "stories": 0
   },
   "Powerpopaholic": {
@@ -1293,8 +1293,8 @@
   },
   "IndieHipHop.com": {
    "url": "https://indiehiphop.com/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "URLError",
+   "stories": 0
   },
   "The Word Is Bond": {
    "url": "https://www.thewordisbond.com/feed/",
@@ -2569,7 +2569,7 @@
   "antiMusic": {
    "url": "https://feeds.feedburner.com/antiMusicNews",
    "status": "ok",
-   "stories": 25
+   "stories": 21
   },
   "Rock Informer": {
    "url": "https://rockinformer.com/feed/",
@@ -3893,8 +3893,8 @@
   },
   "Performing Songwriter": {
    "url": "https://performingsongwriter.com/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 502",
+   "stories": 0
   },
   "UK Songwriting Contest": {
    "url": "https://www.songwritingcontest.co.uk/1/feed",
@@ -4693,8 +4693,8 @@
   },
   "HELLOKPOP": {
    "url": "https://www.hellokpop.com/category/kpop/feed/",
-   "status": "HTTPError 502",
-   "stories": 0
+   "status": "ok",
+   "stories": 3
   },
   "Big B Radio": {
    "url": "https://bigbradio.net/feed",
@@ -5538,8 +5538,8 @@
   },
   "Playlistgh": {
    "url": "https://playlistgh.com/feed/",
-   "status": "TimeoutError",
-   "stories": 0
+   "status": "ok",
+   "stories": 10
   },
   "Afrobeats Intelligence": {
    "url": "https://afrobeatsintelligence.substack.com/feed",
