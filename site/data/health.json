@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T05:21:03+00:00",
+ "updated": "2026-11-22T07:05:15+00:00",
  "feeds": {
   "NME": {
    "url": "https://www.nme.com/feed",
@@ -818,7 +818,7 @@
   },
   "IndieTapes": {
    "url": "https://indie-tapes.com/rss",
-   "status": "HTTPError 429",
+   "status": "HTTPError 404",
    "stories": 0
   },
   "Kid with a Vinyl": {
@@ -1048,8 +1048,8 @@
   },
   "Alt Citizen": {
    "url": "http://altcitizen.com/feed/",
-   "status": "HTTPError 503",
-   "stories": 0
+   "status": "ok",
+   "stories": 12
   },
   "Powerpopaholic": {
    "url": "https://feeds.feedburner.com/Powerpopaholic",
@@ -2438,7 +2438,7 @@
   },
   "Classic Rock Music Blog": {
    "url": "https://classicrockmusicblog.com/feed/",
-   "status": "HTTPError 525",
+   "status": "TimeoutError",
    "stories": 0
   },
   "Vintage Rock": {
@@ -3468,8 +3468,8 @@
   },
   "SonicScoop": {
    "url": "https://sonicscoop.com/feed/",
-   "status": "ok",
-   "stories": 5
+   "status": "HTTPError 520",
+   "stories": 0
   },
   "Make Pop Music": {
    "url": "https://www.makepopmusic.com/blog-feed.xml",
@@ -3893,8 +3893,8 @@
   },
   "Performing Songwriter": {
    "url": "https://performingsongwriter.com/feed/",
-   "status": "HTTPError 502",
-   "stories": 0
+   "status": "ok",
+   "stories": 10
   },
   "UK Songwriting Contest": {
    "url": "https://www.songwritingcontest.co.uk/1/feed",
@@ -5418,8 +5418,8 @@
   },
   "Mile High Reggae": {
    "url": "https://milehighreggae.com/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "URLError",
+   "stories": 0
   },
   "The UK Number Ones Blog": {
    "url": "https://number1sblog.com/feed/",
@@ -5538,8 +5538,8 @@
   },
   "Playlistgh": {
    "url": "https://playlistgh.com/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "TimeoutError",
+   "stories": 0
   },
   "Afrobeats Intelligence": {
    "url": "https://afrobeatsintelligence.substack.com/feed",
