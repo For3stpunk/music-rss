@@ -4,8 +4,8 @@
 <title>B-Side Music RSS: Newsletters</title>
 <link>https://For3stpunk.github.io/music-rss</link>
 <atom:link href="https://For3stpunk.github.io/music-rss/feeds/newsletters.xml" rel="self" type="application/rss+xml"/>
-<description>Newsletters from 38 recent stories across the music media directory.</description>
-<lastBuildDate>Mon, 23 Nov 2026 07:53:01 +0000</lastBuildDate>
+<description>Newsletters from 37 recent stories across the music media directory.</description>
+<lastBuildDate>Mon, 23 Nov 2026 21:33:47 +0000</lastBuildDate>
 <item>
 <title>The Honest Broker (Ted Gioia): Nine Lessons Hollywood Can Learn from Studio Ghibli</title>
 <link>https://www.honest-broker.com/p/nine-lessons-hollywood-can-learn</link>
@@ -336,15 +336,6 @@
 <category>Music newsletter</category>
 <description>Dream Dump with Melissa King today!</description>
 <media:thumbnail url="https://substackcdn.com/image/fetch/$s_!MhwY!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2571171c-87b3-4456-ae07-f8255ec33714_359x450.jpeg"/>
-</item>
-<item>
-<title>The New Cue: The New Cue #639 November 2: Graham Coxon</title>
-<link>https://thenewcue.substack.com/p/the-new-cue-639-november-2-graham</link>
-<guid isPermaLink="true">https://thenewcue.substack.com/p/the-new-cue-639-november-2-graham</guid>
-<pubDate>Mon, 02 Nov 2026 10:02:01 +0000</pubDate>
-<category>Music newsletter</category>
-<description>“ I like to ape around and not act my age”</description>
-<media:thumbnail url="https://substackcdn.com/image/fetch/$s_!JrYp!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcd429c87-6f19-4f8f-b305-41947aba6e6e_1344x1600.jpeg"/>
 </item>
 </channel>
 </rss>

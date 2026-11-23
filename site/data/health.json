@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T07:53:00+00:00",
+ "updated": "2026-11-23T21:33:47+00:00",
  "feeds": {
   "NME": {
    "url": "https://www.nme.com/feed",
@@ -193,8 +193,8 @@
   },
   "Mixmag": {
    "url": "https://mixmag.net/rss-category/news",
-   "status": "no stories",
-   "stories": 0
+   "status": "ok",
+   "stories": 25
   },
   "Dancing Astronaut": {
    "url": "https://dancingastronaut.com/feed/",
@@ -268,8 +268,8 @@
   },
   "Louder Than War": {
    "url": "https://louderthanwar.com/feed/",
-   "status": "HTTPError 502",
-   "stories": 0
+   "status": "ok",
+   "stories": 10
   },
   "US Rocker": {
    "url": "https://californiarocker.com/feed/",
@@ -358,8 +358,8 @@
   },
   "Riddimstream": {
    "url": "https://feeds.feedburner.com/riddimstream",
-   "status": "ok",
-   "stories": 1
+   "status": "HTTPError 404",
+   "stories": 0
   },
   "NgGospel": {
    "url": "https://nggospel.com/feed/",
@@ -818,7 +818,7 @@
   },
   "IndieTapes": {
    "url": "https://indie-tapes.com/rss",
-   "status": "HTTPError 429",
+   "status": "HTTPError 404",
    "stories": 0
   },
   "Kid with a Vinyl": {
@@ -978,8 +978,8 @@
   },
   "Stamp The Wax": {
    "url": "https://www.stampthewax.com/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "TimeoutError",
+   "stories": 0
   },
   "Talk About Pop Music": {
    "url": "https://talkaboutpopmusic.com/feed/",
@@ -1108,8 +1108,8 @@
   },
   "Raptology": {
    "url": "https://raptology.com/feed/",
-   "status": "HTTPError 409",
-   "stories": 0
+   "status": "ok",
+   "stories": 20
   },
   "VIBE": {
    "url": "https://www.vibe.com/c/music/feed/",
@@ -2118,8 +2118,8 @@
   },
   "Jazz Weekly": {
    "url": "https://jazzweekly.com/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "not a feed",
+   "stories": 0
   },
   "Jazz Profiles": {
    "url": "https://jazzprofiles.blogspot.com/feeds/posts/default",
@@ -2363,8 +2363,8 @@
   },
   "The WholeNote": {
    "url": "https://www.thewholenote.com/index.php/newsroom/blog?format=feed&type=rss",
-   "status": "TimeoutError",
-   "stories": 0
+   "status": "ok",
+   "stories": 14
   },
   "Classical KDFC": {
    "url": "https://www.kdfc.com/culture/blog/feed",
@@ -2569,7 +2569,7 @@
   "antiMusic": {
    "url": "https://feeds.feedburner.com/antiMusicNews",
    "status": "ok",
-   "stories": 20
+   "stories": 25
   },
   "Rock Informer": {
    "url": "https://rockinformer.com/feed/",
@@ -2668,8 +2668,8 @@
   },
   "DJ Rob Blog": {
    "url": "https://djrobblog.com/archives/category/black-music-commentary/feed",
-   "status": "HTTPError 500",
-   "stories": 0
+   "status": "ok",
+   "stories": 10
   },
   "RNB Nerd": {
    "url": "https://www.rnbnerd.com/blog?format=rss",
@@ -2783,8 +2783,8 @@
   },
   "Electro Wow": {
    "url": "https://www.electrowow.net/category/pop/feed",
-   "status": "ok",
-   "stories": 8
+   "status": "URLError",
+   "stories": 0
   },
   "Diffuser": {
    "url": "https://diffuser.fm/feed/",
@@ -2873,8 +2873,8 @@
   },
   "The Spill Magazine": {
    "url": "http://spillmagazine.com/feed/",
-   "status": "ok",
-   "stories": 20
+   "status": "ConnectionResetError",
+   "stories": 0
   },
   "That Eric Alper": {
    "url": "https://www.thatericalper.com/feed/",
@@ -3013,8 +3013,8 @@
   },
   "Nashville Scene – Music": {
    "url": "https://www.nashvillescene.com/search/?f=rss&t=article&c=music&l=50&s=start_time&sd=desc",
-   "status": "ok",
-   "stories": 25
+   "status": "HTTPError 429",
+   "stories": 0
   },
   "That Nashville Sound": {
    "url": "https://feeds.feedburner.com/ThatNashvilleSound",
@@ -3553,7 +3553,7 @@
   },
   "Recording Revolution": {
    "url": "https://www.recordingrevolution.com/feed",
-   "status": "HTTPError 404",
+   "status": "URLError",
    "stories": 0
   },
   "Audio Mentor": {
@@ -3893,8 +3893,8 @@
   },
   "Performing Songwriter": {
    "url": "https://performingsongwriter.com/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 502",
+   "stories": 0
   },
   "UK Songwriting Contest": {
    "url": "https://www.songwritingcontest.co.uk/1/feed",
@@ -4298,7 +4298,7 @@
   },
   "Barking Drum": {
    "url": "https://barkingdrum.com/category/blog/feed/",
-   "status": "HTTPError 502",
+   "status": "TimeoutError",
    "stories": 0
   },
   "Drum Set Tips": {
@@ -4653,8 +4653,8 @@
   },
   "Tokki Star": {
    "url": "https://tokkistar.com/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 403",
+   "stories": 0
   },
   "Kpop Wise": {
    "url": "https://www.kpopwise.com/feeds/posts/default",
@@ -4803,8 +4803,8 @@
   },
   "Bman's Blues Report": {
    "url": "https://www.bmansbluesreport.com/feeds/posts/default?alt=rss",
-   "status": "URLError",
-   "stories": 0
+   "status": "ok",
+   "stories": 10
   },
   "PhillyCheeze's Rock & Blues": {
    "url": "https://phillycheezeblues.blogspot.com/feeds/posts/default",
@@ -5178,7 +5178,7 @@
   },
   "PunkRockBeat": {
    "url": "https://www.punkrockbeat.com/feed/",
-   "status": "not a feed",
+   "status": "URLError",
    "stories": 0
   },
   "punk rock and UFOs": {
@@ -5293,8 +5293,8 @@
   },
   "Dancehallarena": {
    "url": "https://dancehallarena.com/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "TimeoutError",
+   "stories": 0
   },
   "Mzansi Reggae": {
    "url": "https://www.mzansireggae.co.za/feed/",
@@ -5498,8 +5498,8 @@
   },
   "The NATIVE": {
    "url": "https://thenativemag.com/feed/",
-   "status": "no stories",
-   "stories": 0
+   "status": "ok",
+   "stories": 10
   },
   "Texx and the City": {
    "url": "https://texxandthecity.com/feed/",

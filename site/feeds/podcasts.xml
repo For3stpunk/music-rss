@@ -4,8 +4,8 @@
 <title>B-Side Music RSS: Podcasts</title>
 <link>https://For3stpunk.github.io/music-rss</link>
 <atom:link href="https://For3stpunk.github.io/music-rss/feeds/podcasts.xml" rel="self" type="application/rss+xml"/>
-<description>Podcasts from 28 recent stories across the music media directory.</description>
-<lastBuildDate>Mon, 23 Nov 2026 07:53:01 +0000</lastBuildDate>
+<description>Podcasts from 26 recent stories across the music media directory.</description>
+<lastBuildDate>Mon, 23 Nov 2026 21:33:47 +0000</lastBuildDate>
 <item>
 <title>World Cafe Words and Music: The song Richard Thompson wrote in one sitting and more stories from his catalog</title>
 <link>https://www.npr.org/2026/11/20/nx-s1-6048617/richard-thompson-world-cafe-interview</link>
@@ -232,23 +232,6 @@
 <category>Music podcast</category>
 <description>As we enter the homestretch of 2026, we pause to catch up on some of the great tracks we missed from earlier in the year. This includes a stunning, ever-shifting earworm from a bedroom pop artist out of Northern Iowa known as Kinji, maximalist polyrhythms from the composer and el</description>
 <media:thumbnail url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x1688+0+0/resize/1280/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F0a%2F9c%2Fa1c0cf7b4465b1b83575d6ba81d8%2F692b6470-1cba-4d91-9fc1-97bbc8fed201.jpg"/>
-</item>
-<item>
-<title>Music Matters with Darrell Craig Harris: Female Genius: Julie Hair Turns Everyday Media into Experimental Sound</title>
-<link>https://musicmatterswithDarrellCraigHarris.podbean.com/e/emale-genius-julie-hair-turns-everyday-media-into-experimental-sound/</link>
-<guid isPermaLink="true">https://musicmatterswithDarrellCraigHarris.podbean.com/e/emale-genius-julie-hair-turns-everyday-media-into-experimental-sound/</guid>
-<pubDate>Mon, 02 Nov 2026 23:37:32 +0000</pubDate>
-<category>Music podcast</category>
-<description>Enter the shadowy sound world of Female Genius on the Music Matters Podcast. Led by New York musician and artist Julie Hair, Female Genius transforms fragments of everyday media—social-media clips, 911 calls, and television broadcasts—into an experimental collage of sound and per</description>
-</item>
-<item>
-<title>World Cafe Words and Music: Willow Avalon on her latest album, &#x27;Pink Pocket Pistol&#x27;</title>
-<link>https://www.npr.org/2026/11/02/nx-s1-6023334/willow-avalon-album-pink-pocket-pistol</link>
-<guid isPermaLink="true">https://www.npr.org/2026/11/02/nx-s1-6023334/willow-avalon-album-pink-pocket-pistol</guid>
-<pubDate>Mon, 02 Nov 2026 13:00:00 +0000</pubDate>
-<category>Music podcast</category>
-<description>Willow Avalon is making room for a kind of country song where women can sing about more than just broken hearts. On her new album, she draws on the traditions of her rural Georgia upbringing. See pcm.adswizz.com for information about our collection and use of personal data for sp</description>
-<media:thumbnail url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x1688+0+0/resize/1280/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F88%2F70%2F647eb38e46709286b4e456583032%2F7c91aaef-1862-4acd-9241-f631a01cf84d.jpg"/>
 </item>
 </channel>
 </rss>
