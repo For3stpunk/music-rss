@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T21:33:47+00:00",
+ "updated": "2026-11-24T10:05:55+00:00",
  "feeds": {
   "NME": {
    "url": "https://www.nme.com/feed",
@@ -833,8 +833,8 @@
   },
   "Two Story Melody": {
    "url": "https://twostorymelody.com/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "TimeoutError",
+   "stories": 0
   },
   "Wolf in a Suit": {
    "url": "https://wolfinasuit.com/feed/",
@@ -978,8 +978,8 @@
   },
   "Stamp The Wax": {
    "url": "https://www.stampthewax.com/feed/",
-   "status": "TimeoutError",
-   "stories": 0
+   "status": "ok",
+   "stories": 10
   },
   "Talk About Pop Music": {
    "url": "https://talkaboutpopmusic.com/feed/",
@@ -1034,7 +1034,7 @@
   "Los Angeles Times – Music": {
    "url": "https://www.latimes.com/entertainment-arts/music.rss",
    "status": "ok",
-   "stories": 17
+   "stories": 16
   },
   "Ear To The Ground Music": {
    "url": "https://www.eartothegroundmusic.co/feed/",
@@ -1248,7 +1248,7 @@
   },
   "Thisis50": {
    "url": "https://thisis50.com/feed/",
-   "status": "HTTPError 404",
+   "status": "URLError",
    "stories": 0
   },
   "2 Dope Boyz": {
@@ -2118,7 +2118,7 @@
   },
   "Jazz Weekly": {
    "url": "https://jazzweekly.com/feed/",
-   "status": "not a feed",
+   "status": "HTTPError 404",
    "stories": 0
   },
   "Jazz Profiles": {
@@ -2358,7 +2358,7 @@
   },
   "Boosey & Hawkes": {
    "url": "https://www.boosey.com/pages/cr/news/rss",
-   "status": "HTTPError 404",
+   "status": "TimeoutError",
    "stories": 0
   },
   "The WholeNote": {
@@ -2569,7 +2569,7 @@
   "antiMusic": {
    "url": "https://feeds.feedburner.com/antiMusicNews",
    "status": "ok",
-   "stories": 25
+   "stories": 21
   },
   "Rock Informer": {
    "url": "https://rockinformer.com/feed/",
@@ -2783,8 +2783,8 @@
   },
   "Electro Wow": {
    "url": "https://www.electrowow.net/category/pop/feed",
-   "status": "URLError",
-   "stories": 0
+   "status": "ok",
+   "stories": 8
   },
   "Diffuser": {
    "url": "https://diffuser.fm/feed/",
@@ -2873,8 +2873,8 @@
   },
   "The Spill Magazine": {
    "url": "http://spillmagazine.com/feed/",
-   "status": "ConnectionResetError",
-   "stories": 0
+   "status": "ok",
+   "stories": 20
   },
   "That Eric Alper": {
    "url": "https://www.thatericalper.com/feed/",
@@ -3069,7 +3069,7 @@
   "The New York Times – Music": {
    "url": "https://rss.nytimes.com/services/xml/rss/nyt/Music.xml",
    "status": "ok",
-   "stories": 25
+   "stories": 24
   },
   "New York Post – Music": {
    "url": "https://nypost.com/music/feed/",
@@ -3553,7 +3553,7 @@
   },
   "Recording Revolution": {
    "url": "https://www.recordingrevolution.com/feed",
-   "status": "URLError",
+   "status": "HTTPError 404",
    "stories": 0
   },
   "Audio Mentor": {
@@ -4008,8 +4008,8 @@
   },
   "Juno Daily": {
    "url": "https://www.juno.co.uk/junodaily/feed/",
-   "status": "ok",
-   "stories": 20
+   "status": "HTTPError 403",
+   "stories": 0
   },
   "The DJ Sessions": {
    "url": "https://www.thedjsessions.com/feed/",
@@ -4298,8 +4298,8 @@
   },
   "Barking Drum": {
    "url": "https://barkingdrum.com/category/blog/feed/",
-   "status": "TimeoutError",
-   "stories": 0
+   "status": "ok",
+   "stories": 10
   },
   "Drum Set Tips": {
    "url": "https://drumsettips.org/feed/",
