@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T10:05:55+00:00",
+ "updated": "2026-11-24T22:36:34+00:00",
  "feeds": {
   "NME": {
    "url": "https://www.nme.com/feed",
@@ -289,7 +289,7 @@
   "The Boot": {
    "url": "https://theboot.com/feed/",
    "status": "ok",
-   "stories": 25
+   "stories": 24
   },
   "Taste of Country": {
    "url": "https://tasteofcountry.com/feed/",
@@ -1034,7 +1034,7 @@
   "Los Angeles Times – Music": {
    "url": "https://www.latimes.com/entertainment-arts/music.rss",
    "status": "ok",
-   "stories": 16
+   "stories": 17
   },
   "Ear To The Ground Music": {
    "url": "https://www.eartothegroundmusic.co/feed/",
@@ -1108,8 +1108,8 @@
   },
   "Raptology": {
    "url": "https://raptology.com/feed/",
-   "status": "ok",
-   "stories": 20
+   "status": "HTTPError 409",
+   "stories": 0
   },
   "VIBE": {
    "url": "https://www.vibe.com/c/music/feed/",
@@ -1188,8 +1188,8 @@
   },
   "Cyber PR": {
    "url": "https://cyberprmusic.com/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "TimeoutError",
+   "stories": 0
   },
   "BMI": {
    "url": "http://feeds.bmi.com/bmicom/",
@@ -1248,7 +1248,7 @@
   },
   "Thisis50": {
    "url": "https://thisis50.com/feed/",
-   "status": "URLError",
+   "status": "HTTPError 404",
    "stories": 0
   },
   "2 Dope Boyz": {
@@ -1848,8 +1848,8 @@
   },
   "Metal Blade Records": {
    "url": "https://www.metalblade.com/us/feed/",
-   "status": "TimeoutError",
-   "stories": 0
+   "status": "ok",
+   "stories": 25
   },
   "Louder (Classic Rock, Metal Hammer, Prog)": {
    "url": "https://www.loudersound.com/feeds.xml",
@@ -2118,8 +2118,8 @@
   },
   "Jazz Weekly": {
    "url": "https://jazzweekly.com/feed/",
-   "status": "HTTPError 404",
-   "stories": 0
+   "status": "ok",
+   "stories": 10
   },
   "Jazz Profiles": {
    "url": "https://jazzprofiles.blogspot.com/feeds/posts/default",
@@ -2358,7 +2358,7 @@
   },
   "Boosey & Hawkes": {
    "url": "https://www.boosey.com/pages/cr/news/rss",
-   "status": "TimeoutError",
+   "status": "HTTPError 404",
    "stories": 0
   },
   "The WholeNote": {
@@ -2569,7 +2569,7 @@
   "antiMusic": {
    "url": "https://feeds.feedburner.com/antiMusicNews",
    "status": "ok",
-   "stories": 21
+   "stories": 25
   },
   "Rock Informer": {
    "url": "https://rockinformer.com/feed/",
@@ -3069,7 +3069,7 @@
   "The New York Times – Music": {
    "url": "https://rss.nytimes.com/services/xml/rss/nyt/Music.xml",
    "status": "ok",
-   "stories": 24
+   "stories": 21
   },
   "New York Post – Music": {
    "url": "https://nypost.com/music/feed/",
@@ -3878,8 +3878,8 @@
   },
   "Twin Monarch": {
    "url": "https://twinmonarch.com/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 500",
+   "stories": 0
   },
   "Robin Frederick": {
    "url": "https://robinfrederick.com/feed/",
@@ -4693,8 +4693,8 @@
   },
   "HELLOKPOP": {
    "url": "https://www.hellokpop.com/category/kpop/feed/",
-   "status": "HTTPError 502",
-   "stories": 0
+   "status": "ok",
+   "stories": 3
   },
   "Big B Radio": {
    "url": "https://bigbradio.net/feed",
@@ -4718,8 +4718,8 @@
   },
   "Havana Music School Blog": {
    "url": "https://havanamusicschool.com/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "TimeoutError",
+   "stories": 0
   },
   "Latin Music Specialists": {
    "url": "https://www.lmsrecords.com/blog-feed.xml",
@@ -5293,8 +5293,8 @@
   },
   "Dancehallarena": {
    "url": "https://dancehallarena.com/feed/",
-   "status": "TimeoutError",
-   "stories": 0
+   "status": "ok",
+   "stories": 10
   },
   "Mzansi Reggae": {
    "url": "https://www.mzansireggae.co.za/feed/",
