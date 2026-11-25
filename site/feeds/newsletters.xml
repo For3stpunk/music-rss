@@ -4,8 +4,8 @@
 <title>B-Side Music RSS: Newsletters</title>
 <link>https://For3stpunk.github.io/music-rss</link>
 <atom:link href="https://For3stpunk.github.io/music-rss/feeds/newsletters.xml" rel="self" type="application/rss+xml"/>
-<description>Newsletters from 24 recent stories across the music media directory.</description>
-<lastBuildDate>Tue, 24 Nov 2026 22:36:35 +0000</lastBuildDate>
+<description>Newsletters from 22 recent stories across the music media directory.</description>
+<lastBuildDate>Wed, 25 Nov 2026 08:50:37 +0000</lastBuildDate>
 <item>
 <title>The Honest Broker (Ted Gioia): Nine Lessons Hollywood Can Learn from Studio Ghibli</title>
 <link>https://www.honest-broker.com/p/nine-lessons-hollywood-can-learn</link>
@@ -202,23 +202,6 @@
 <category>Music newsletter</category>
 <description>“I have been arrested many, many times, my friend...”</description>
 <media:thumbnail url="https://substackcdn.com/image/fetch/$s_!wvmC!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0941904a-cab4-4d0a-af9b-defdad410022_1068x1600.jpeg"/>
-</item>
-<item>
-<title>I Think We&#x27;re Alone Now (Tegan and Sara): A December To Remember</title>
-<link>https://teganandsara.substack.com/p/a-december-to-remember</link>
-<guid isPermaLink="true">https://teganandsara.substack.com/p/a-december-to-remember</guid>
-<pubDate>Sat, 14 Nov 2026 14:11:47 +0000</pubDate>
-<category>Music newsletter</category>
-<description>Watch now (5 mins) | Kate Cooper breaks down the track</description>
-</item>
-<item>
-<title>The Honest Broker (Ted Gioia): Can AI Compose a Convincing Beethoven Sonata?</title>
-<link>https://www.honest-broker.com/p/can-ai-compose-a-convincing-beethoven</link>
-<guid isPermaLink="true">https://www.honest-broker.com/p/can-ai-compose-a-convincing-beethoven</guid>
-<pubDate>Fri, 13 Nov 2026 18:33:20 +0000</pubDate>
-<category>Music newsletter</category>
-<description>Listen and judge for yourself</description>
-<media:thumbnail url="https://substackcdn.com/image/fetch/$s_!jE0i!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F__ss-rehost__tw-video-preview-13_2119919333140840449.jpg"/>
 </item>
 </channel>
 </rss>

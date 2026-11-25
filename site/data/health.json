@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T22:36:34+00:00",
+ "updated": "2026-11-25T08:50:37+00:00",
  "feeds": {
   "NME": {
    "url": "https://www.nme.com/feed",
@@ -289,7 +289,7 @@
   "The Boot": {
    "url": "https://theboot.com/feed/",
    "status": "ok",
-   "stories": 24
+   "stories": 25
   },
   "Taste of Country": {
    "url": "https://tasteofcountry.com/feed/",
@@ -693,8 +693,8 @@
   },
   "Indie Music Spin": {
    "url": "http://indiemusicspin.com/feed/",
-   "status": "ok",
-   "stories": 15
+   "status": "HTTPError 503",
+   "stories": 0
   },
   "Jammerzine": {
    "url": "https://jammerzine.com/feed/",
@@ -818,7 +818,7 @@
   },
   "IndieTapes": {
    "url": "https://indie-tapes.com/rss",
-   "status": "HTTPError 404",
+   "status": "HTTPError 429",
    "stories": 0
   },
   "Kid with a Vinyl": {
@@ -1048,8 +1048,8 @@
   },
   "Alt Citizen": {
    "url": "http://altcitizen.com/feed/",
-   "status": "TimeoutError",
-   "stories": 0
+   "status": "ok",
+   "stories": 12
   },
   "Powerpopaholic": {
    "url": "https://feeds.feedburner.com/Powerpopaholic",
@@ -1108,8 +1108,8 @@
   },
   "Raptology": {
    "url": "https://raptology.com/feed/",
-   "status": "HTTPError 409",
-   "stories": 0
+   "status": "ok",
+   "stories": 20
   },
   "VIBE": {
    "url": "https://www.vibe.com/c/music/feed/",
@@ -1188,8 +1188,8 @@
   },
   "Cyber PR": {
    "url": "https://cyberprmusic.com/feed/",
-   "status": "TimeoutError",
-   "stories": 0
+   "status": "ok",
+   "stories": 10
   },
   "BMI": {
    "url": "http://feeds.bmi.com/bmicom/",
@@ -1548,8 +1548,8 @@
   },
   "We Rave You": {
    "url": "https://weraveyou.com/feed/",
-   "status": "ok",
-   "stories": 20
+   "status": "TimeoutError",
+   "stories": 0
   },
   "XLR8R": {
    "url": "https://xlr8r.com/feed/",
@@ -1848,8 +1848,8 @@
   },
   "Metal Blade Records": {
    "url": "https://www.metalblade.com/us/feed/",
-   "status": "ok",
-   "stories": 25
+   "status": "TimeoutError",
+   "stories": 0
   },
   "Louder (Classic Rock, Metal Hammer, Prog)": {
    "url": "https://www.loudersound.com/feeds.xml",
@@ -1878,13 +1878,13 @@
   },
   "HEAVY Magazine": {
    "url": "https://heavymag.com.au/feed/",
-   "status": "ok",
-   "stories": 25
+   "status": "TimeoutError",
+   "stories": 0
   },
   "Antichrist Metalzine": {
    "url": "https://antichristmagazine.com/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "TimeoutError",
+   "stories": 0
   },
   "Heavy Metal Overload": {
    "url": "https://heavymetaloverload.com/feed/",
@@ -2363,8 +2363,8 @@
   },
   "The WholeNote": {
    "url": "https://www.thewholenote.com/index.php/newsroom/blog?format=feed&type=rss",
-   "status": "ok",
-   "stories": 14
+   "status": "TimeoutError",
+   "stories": 0
   },
   "Classical KDFC": {
    "url": "https://www.kdfc.com/culture/blog/feed",
@@ -2569,7 +2569,7 @@
   "antiMusic": {
    "url": "https://feeds.feedburner.com/antiMusicNews",
    "status": "ok",
-   "stories": 25
+   "stories": 17
   },
   "Rock Informer": {
    "url": "https://rockinformer.com/feed/",
@@ -4718,8 +4718,8 @@
   },
   "Havana Music School Blog": {
    "url": "https://havanamusicschool.com/feed/",
-   "status": "TimeoutError",
-   "stories": 0
+   "status": "ok",
+   "stories": 10
   },
   "Latin Music Specialists": {
    "url": "https://www.lmsrecords.com/blog-feed.xml",
@@ -5538,8 +5538,8 @@
   },
   "Playlistgh": {
    "url": "https://playlistgh.com/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "TimeoutError",
+   "stories": 0
   },
   "Afrobeats Intelligence": {
    "url": "https://afrobeatsintelligence.substack.com/feed",
