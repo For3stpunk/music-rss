@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T03:40:17+00:00",
+ "updated": "2026-11-26T17:05:38+00:00",
  "feeds": {
   "NME": {
    "url": "https://www.nme.com/feed",
@@ -289,7 +289,7 @@
   "The Boot": {
    "url": "https://theboot.com/feed/",
    "status": "ok",
-   "stories": 25
+   "stories": 24
   },
   "Taste of Country": {
    "url": "https://tasteofcountry.com/feed/",
@@ -449,7 +449,7 @@
   "Bedroom Producers Blog": {
    "url": "https://bedroomproducersblog.com/feed/",
    "status": "ok",
-   "stories": 12
+   "stories": 16
   },
   "AskAudio": {
    "url": "https://ask.audio/rss",
@@ -818,7 +818,7 @@
   },
   "IndieTapes": {
    "url": "https://indie-tapes.com/rss",
-   "status": "HTTPError 429",
+   "status": "HTTPError 404",
    "stories": 0
   },
   "Kid with a Vinyl": {
@@ -948,8 +948,8 @@
   },
   "She Makes Music": {
    "url": "https://shemakesmusic.co.uk/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "not a feed",
+   "stories": 0
   },
   "Soundsphere": {
    "url": "https://www.soundspheremag.com/feed/",
@@ -1848,8 +1848,8 @@
   },
   "Metal Blade Records": {
    "url": "https://www.metalblade.com/us/feed/",
-   "status": "ok",
-   "stories": 25
+   "status": "TimeoutError",
+   "stories": 0
   },
   "Louder (Classic Rock, Metal Hammer, Prog)": {
    "url": "https://www.loudersound.com/feeds.xml",
@@ -1878,13 +1878,13 @@
   },
   "HEAVY Magazine": {
    "url": "https://heavymag.com.au/feed/",
-   "status": "ok",
-   "stories": 25
+   "status": "HTTPError 403",
+   "stories": 0
   },
   "Antichrist Metalzine": {
    "url": "https://antichristmagazine.com/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "TimeoutError",
+   "stories": 0
   },
   "Heavy Metal Overload": {
    "url": "https://heavymetaloverload.com/feed/",
@@ -2363,8 +2363,8 @@
   },
   "The WholeNote": {
    "url": "https://www.thewholenote.com/index.php/newsroom/blog?format=feed&type=rss",
-   "status": "HTTPError 500",
-   "stories": 0
+   "status": "ok",
+   "stories": 14
   },
   "Classical KDFC": {
    "url": "https://www.kdfc.com/culture/blog/feed",
@@ -2573,7 +2573,7 @@
   },
   "Rock Informer": {
    "url": "https://rockinformer.com/feed/",
-   "status": "HTTPError 522",
+   "status": "HTTPError 521",
    "stories": 0
   },
   "Wired Head News": {
@@ -3069,7 +3069,7 @@
   "The New York Times – Music": {
    "url": "https://rss.nytimes.com/services/xml/rss/nyt/Music.xml",
    "status": "ok",
-   "stories": 22
+   "stories": 21
   },
   "New York Post – Music": {
    "url": "https://nypost.com/music/feed/",

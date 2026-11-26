@@ -4,8 +4,24 @@
 <title>B-Side Music RSS: Podcasts</title>
 <link>https://For3stpunk.github.io/music-rss</link>
 <atom:link href="https://For3stpunk.github.io/music-rss/feeds/podcasts.xml" rel="self" type="application/rss+xml"/>
-<description>Podcasts from 8 recent stories across the music media directory.</description>
-<lastBuildDate>Thu, 26 Nov 2026 03:40:17 +0000</lastBuildDate>
+<description>Podcasts from 9 recent stories across the music media directory.</description>
+<lastBuildDate>Thu, 26 Nov 2026 17:05:38 +0000</lastBuildDate>
+<item>
+<title>Lyrics Of Their Life: The 1975 (Part 3) - Sophomore Era &amp; Critical Acclaim</title>
+<link>https://audioboom.com/posts/8981839</link>
+<guid isPermaLink="true">https://audioboom.com/posts/8981839</guid>
+<pubDate>Thu, 26 Nov 2026 09:14:50 +0000</pubDate>
+<category>Music podcast</category>
+<description>In Part 3 of the 1975 story, we delve into the meaning behind the songs from the band&#x27;s 2nd studio album titled &quot;I Like It When You Sleep, For You Are So Beautiful Yet So Unaware Of It&quot; as The 1975 finally earn the critical acclaim they deserve while Matty battles addiction, navi</description>
+</item>
+<item>
+<title>Sticky Notes: The Classical Music Podcast: Beethoven Symphony No. 1 (Remastered)</title>
+<link>https://stickynotespodcast.libsyn.com/beethoven-symphony-no-1-remastered</link>
+<guid isPermaLink="true">https://stickynotespodcast.libsyn.com/beethoven-symphony-no-1-remastered</guid>
+<pubDate>Thu, 26 Nov 2026 05:12:00 +0000</pubDate>
+<category>Music podcast</category>
+<description>For the next couple of months, while I&#x27;m on hiatus due to the birth of my second child, we&#x27;re going to be covering Beethoven&#x27;s 9 symphonies in advance of 2027, the 250th anniversary of his death. For long-time listeners of the show, these are, of course, older episodes, but they </description>
+</item>
 <item>
 <title>World Cafe Words and Music: Tune in to a mini-concert with Grace Potter</title>
 <link>https://www.npr.org/2026/11/25/nx-s1-6052394/grace-potter-album-trespasser</link>
@@ -67,15 +83,6 @@
 <category>Music podcast</category>
 <description>Host Stephen Thompson breaks down the best albums out Friday, Nov. 20 with DJs from around the NPR Music network: Brian Burns from WUNC in Chapel Hill, Celia Gregory from WNXP in Nashville and DJ Llu from Vermont Public. Plus, a handful of NPR Music writers and critics offer thei</description>
 <media:thumbnail url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3377x1900+0+0/resize/1280/quality/66/format/jpg/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F7d%2F6e%2F995a5a1449f1bea8c7cc8646ae15%2F62fe8485-2244-419b-943b-165deba2ef1d.jpeg"/>
-</item>
-<item>
-<title>World Cafe Words and Music: wave to earth is putting Korean indie rock on the map</title>
-<link>https://www.npr.org/2026/11/19/nx-s1-6047450/wave-to-earth-album-bad-pieces</link>
-<guid isPermaLink="true">https://www.npr.org/2026/11/19/nx-s1-6047450/wave-to-earth-album-bad-pieces</guid>
-<pubDate>Thu, 19 Nov 2026 17:24:19 +0000</pubDate>
-<category>Music podcast</category>
-<description>The trio talk about finding success in the U.S. and exploring a new sound on their latest album, bad pieces. See pcm.adswizz.com for information about our collection and use of personal data for sponsorship and to manage your podcast sponsorship preferences. NPR Privacy Policy</description>
-<media:thumbnail url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3600x2025+0+0/resize/1280/quality/66/format/jpg/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2Ffd%2Fae%2F021a832542f0952ec6be3ec65063%2F8986d3f9-cd57-4e22-b547-638ad9281740.jpg"/>
 </item>
 </channel>
 </rss>

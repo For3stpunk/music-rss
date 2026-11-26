@@ -4,8 +4,8 @@
 <title>B-Side Music RSS: Newsletters</title>
 <link>https://For3stpunk.github.io/music-rss</link>
 <atom:link href="https://For3stpunk.github.io/music-rss/feeds/newsletters.xml" rel="self" type="application/rss+xml"/>
-<description>Newsletters from 18 recent stories across the music media directory.</description>
-<lastBuildDate>Thu, 26 Nov 2026 03:40:17 +0000</lastBuildDate>
+<description>Newsletters from 17 recent stories across the music media directory.</description>
+<lastBuildDate>Thu, 26 Nov 2026 17:05:38 +0000</lastBuildDate>
 <item>
 <title>The Honest Broker (Ted Gioia): Are These the 100 Best Songs of All Time? Really?</title>
 <link>https://www.honest-broker.com/p/are-these-the-100-best-songs-of-all</link>
@@ -157,15 +157,6 @@
 <category>Music newsletter</category>
 <description>“We’re like Andy Dufresne here”</description>
 <media:thumbnail url="https://substackcdn.com/image/fetch/$s_!fShz!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb35e00d0-6120-44f1-9b74-f80475c40b40_800x800.png"/>
-</item>
-<item>
-<title>First Floor (Shawn Reynaldo): First Floor #337 – Business As Usual</title>
-<link>https://firstfloor.substack.com/p/first-floor-337-business-as-usual</link>
-<guid isPermaLink="true">https://firstfloor.substack.com/p/first-floor-337-business-as-usual</guid>
-<pubDate>Thu, 19 Nov 2026 12:09:13 +0000</pubDate>
-<category>Music newsletter</category>
-<description>Quick thoughts on the (severely lacking) press coverage of the recent AI weaponry event at Kraftwerk Berlin, plus a round-up of the latest news and a fresh bundle of recommended new releases.</description>
-<media:thumbnail url="https://substack-post-media.s3.amazonaws.com/public/images/45277a31-e5a9-4823-ae65-cb4c16ad6af4_1456x1048.png"/>
 </item>
 </channel>
 </rss>
