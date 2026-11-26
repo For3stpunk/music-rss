@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T19:26:04+00:00",
+ "updated": "2026-11-26T03:40:17+00:00",
  "feeds": {
   "NME": {
    "url": "https://www.nme.com/feed",
@@ -268,8 +268,8 @@
   },
   "Louder Than War": {
    "url": "https://louderthanwar.com/feed/",
-   "status": "HTTPError 502",
-   "stories": 0
+   "status": "ok",
+   "stories": 10
   },
   "US Rocker": {
    "url": "https://californiarocker.com/feed/",
@@ -289,7 +289,7 @@
   "The Boot": {
    "url": "https://theboot.com/feed/",
    "status": "ok",
-   "stories": 24
+   "stories": 25
   },
   "Taste of Country": {
    "url": "https://tasteofcountry.com/feed/",
@@ -833,8 +833,8 @@
   },
   "Two Story Melody": {
    "url": "https://twostorymelody.com/feed/",
-   "status": "HTTPError 502",
-   "stories": 0
+   "status": "ok",
+   "stories": 10
   },
   "Wolf in a Suit": {
    "url": "https://wolfinasuit.com/feed/",
@@ -1563,8 +1563,8 @@
   },
   "Daily Beat": {
    "url": "https://daily-beat.com/feed/",
-   "status": "TimeoutError",
-   "stories": 0
+   "status": "ok",
+   "stories": 10
   },
   "EDM Chicago": {
    "url": "https://www.edmchicago.com/feed/",
@@ -1848,8 +1848,8 @@
   },
   "Metal Blade Records": {
    "url": "https://www.metalblade.com/us/feed/",
-   "status": "TimeoutError",
-   "stories": 0
+   "status": "ok",
+   "stories": 25
   },
   "Louder (Classic Rock, Metal Hammer, Prog)": {
    "url": "https://www.loudersound.com/feeds.xml",
@@ -2363,8 +2363,8 @@
   },
   "The WholeNote": {
    "url": "https://www.thewholenote.com/index.php/newsroom/blog?format=feed&type=rss",
-   "status": "ok",
-   "stories": 14
+   "status": "HTTPError 500",
+   "stories": 0
   },
   "Classical KDFC": {
    "url": "https://www.kdfc.com/culture/blog/feed",
@@ -2408,8 +2408,8 @@
   },
   "Myglobalmind": {
    "url": "https://myglobalmind.com/feed/",
-   "status": "HTTPError 403",
-   "stories": 0
+   "status": "ok",
+   "stories": 9
   },
   "ClassicRockHistory.com": {
    "url": "https://www.classicrockhistory.com/feed/",
@@ -2569,12 +2569,12 @@
   "antiMusic": {
    "url": "https://feeds.feedburner.com/antiMusicNews",
    "status": "ok",
-   "stories": 25
+   "stories": 22
   },
   "Rock Informer": {
    "url": "https://rockinformer.com/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 522",
+   "stories": 0
   },
   "Wired Head News": {
    "url": "https://www.wiredheadnews.com/home/news/rss/",
@@ -2583,8 +2583,8 @@
   },
   "MelodicRock.com": {
    "url": "https://melodicrock.com/rss.xml",
-   "status": "URLError",
-   "stories": 0
+   "status": "ok",
+   "stories": 10
   },
   "The Rock Source": {
    "url": "https://rocksourcemagazine.com/feed/",
@@ -2783,8 +2783,8 @@
   },
   "Electro Wow": {
    "url": "https://www.electrowow.net/category/pop/feed",
-   "status": "HTTPError 403",
-   "stories": 0
+   "status": "ok",
+   "stories": 8
   },
   "Diffuser": {
    "url": "https://diffuser.fm/feed/",
@@ -3043,8 +3043,8 @@
   },
   "NashvilleGab": {
    "url": "https://nashvillegab.com/feed/",
-   "status": "HTTPError 403",
-   "stories": 0
+   "status": "ok",
+   "stories": 9
   },
   "FreeCCM": {
    "url": "https://freeccm.com/feed/",
@@ -3069,7 +3069,7 @@
   "The New York Times – Music": {
    "url": "https://rss.nytimes.com/services/xml/rss/nyt/Music.xml",
    "status": "ok",
-   "stories": 21
+   "stories": 22
   },
   "New York Post – Music": {
    "url": "https://nypost.com/music/feed/",
@@ -3113,8 +3113,8 @@
   },
   "The Groove Cartel": {
    "url": "https://thegroovecartel.com/feed/",
-   "status": "TimeoutError",
-   "stories": 0
+   "status": "ok",
+   "stories": 10
   },
   "The Sound Clique": {
    "url": "https://thesoundclique.com/feed/",
@@ -4238,8 +4238,8 @@
   },
   "KGU Music Blog": {
    "url": "https://kgumusic.com/blogs/news.atom",
-   "status": "HTTPError 403",
-   "stories": 0
+   "status": "ok",
+   "stories": 25
   },
   "Music Makers Colorado Blog": {
    "url": "https://musicmakerscolorado.com/feed/",
@@ -4668,8 +4668,8 @@
   },
   "K-Culture with Jae-Ha Kim": {
    "url": "https://jaehakim.substack.com/feed",
-   "status": "ok",
-   "stories": 20
+   "status": "HTTPError 403",
+   "stories": 0
   },
   "Netizen Buzz": {
    "url": "https://feeds.feedburner.com/NetizenBuzz",
@@ -5543,8 +5543,8 @@
   },
   "Afrobeats Intelligence": {
    "url": "https://afrobeatsintelligence.substack.com/feed",
-   "status": "ok",
-   "stories": 20
+   "status": "HTTPError 403",
+   "stories": 0
   },
   "Afromixx": {
    "url": "https://afromixx.com/feed/",
@@ -5648,18 +5648,18 @@
   },
   "First Floor (Shawn Reynaldo)": {
    "url": "https://firstfloor.substack.com/feed",
-   "status": "ok",
-   "stories": 20
+   "status": "HTTPError 403",
+   "stories": 0
   },
   "I Think We're Alone Now (Tegan and Sara)": {
    "url": "https://teganandsara.substack.com/feed",
-   "status": "ok",
-   "stories": 20
+   "status": "HTTPError 403",
+   "stories": 0
   },
   "The New Cue": {
    "url": "https://thenewcue.substack.com/feed",
-   "status": "ok",
-   "stories": 20
+   "status": "HTTPError 403",
+   "stories": 0
   },
   "A History of Rock Music in 500 Songs": {
    "url": "https://500songs.com/feed/podcast/",
