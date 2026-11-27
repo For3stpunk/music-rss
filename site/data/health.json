@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T17:05:38+00:00",
+ "updated": "2026-11-27T01:48:44+00:00",
  "feeds": {
   "NME": {
    "url": "https://www.nme.com/feed",
@@ -818,7 +818,7 @@
   },
   "IndieTapes": {
    "url": "https://indie-tapes.com/rss",
-   "status": "HTTPError 404",
+   "status": "HTTPError 429",
    "stories": 0
   },
   "Kid with a Vinyl": {
@@ -1883,8 +1883,8 @@
   },
   "Antichrist Metalzine": {
    "url": "https://antichristmagazine.com/feed/",
-   "status": "TimeoutError",
-   "stories": 0
+   "status": "ok",
+   "stories": 10
   },
   "Heavy Metal Overload": {
    "url": "https://heavymetaloverload.com/feed/",
@@ -2569,11 +2569,11 @@
   "antiMusic": {
    "url": "https://feeds.feedburner.com/antiMusicNews",
    "status": "ok",
-   "stories": 22
+   "stories": 25
   },
   "Rock Informer": {
    "url": "https://rockinformer.com/feed/",
-   "status": "HTTPError 521",
+   "status": "HTTPError 526",
    "stories": 0
   },
   "Wired Head News": {
@@ -2743,7 +2743,7 @@
   },
   "Tonspion": {
    "url": "https://www.tonspion.de/rubrik/musik/pop/feed",
-   "status": "no stories",
+   "status": "URLError",
    "stories": 0
   },
   "Scandipop": {
@@ -3069,7 +3069,7 @@
   "The New York Times – Music": {
    "url": "https://rss.nytimes.com/services/xml/rss/nyt/Music.xml",
    "status": "ok",
-   "stories": 21
+   "stories": 20
   },
   "New York Post – Music": {
    "url": "https://nypost.com/music/feed/",
@@ -3188,7 +3188,7 @@
   },
   "Afro House King": {
    "url": "https://afrohouseking.com/feed/",
-   "status": "not a feed",
+   "status": "TimeoutError",
    "stories": 0
   },
   "Sho Mag": {
@@ -4123,8 +4123,8 @@
   },
   "Bret Pimentel, woodwinds": {
    "url": "https://bretpimentel.com/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "TimeoutError",
+   "stories": 0
   },
   "The Trumpet Blog": {
    "url": "https://www.thetrumpetblog.com/category/product-reviews/feed/",
@@ -4693,8 +4693,8 @@
   },
   "HELLOKPOP": {
    "url": "https://www.hellokpop.com/category/kpop/feed/",
-   "status": "HTTPError 502",
-   "stories": 0
+   "status": "ok",
+   "stories": 3
   },
   "Big B Radio": {
    "url": "https://bigbradio.net/feed",
