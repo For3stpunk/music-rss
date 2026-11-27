@@ -4,8 +4,8 @@
 <title>B-Side Music RSS: Newsletters</title>
 <link>https://For3stpunk.github.io/music-rss</link>
 <atom:link href="https://For3stpunk.github.io/music-rss/feeds/newsletters.xml" rel="self" type="application/rss+xml"/>
-<description>Newsletters from 17 recent stories across the music media directory.</description>
-<lastBuildDate>Fri, 27 Nov 2026 01:48:44 +0000</lastBuildDate>
+<description>Newsletters from 15 recent stories across the music media directory.</description>
+<lastBuildDate>Fri, 27 Nov 2026 12:44:39 +0000</lastBuildDate>
 <item>
 <title>The Honest Broker (Ted Gioia): Are These the 100 Best Songs of All Time? Really?</title>
 <link>https://www.honest-broker.com/p/are-these-the-100-best-songs-of-all</link>
@@ -139,24 +139,6 @@
 <pubDate>Sat, 21 Nov 2026 14:03:29 +0000</pubDate>
 <category>Music newsletter</category>
 <description>Kate Cooper is back to break down our newest Christmas Track!</description>
-</item>
-<item>
-<title>First Floor (Shawn Reynaldo): Why Did Kraftwerk Berlin Let an AI Weapons Developer Inside Its Walls?</title>
-<link>https://firstfloor.substack.com/p/why-did-kraftwerk-berlin-let-an-ai</link>
-<guid isPermaLink="true">https://firstfloor.substack.com/p/why-did-kraftwerk-berlin-let-an-ai</guid>
-<pubDate>Fri, 20 Nov 2026 15:02:02 +0000</pubDate>
-<category>Music newsletter</category>
-<description>After a week full of statements, apologies and a whole lot of speculation, First Floor investigates what really happened.</description>
-<media:thumbnail url="https://substackcdn.com/image/fetch/$s_!74Ph!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F38bc5793-bedb-4422-bd5a-74385dd9dff8_4000x2667.jpeg"/>
-</item>
-<item>
-<title>The New Cue: The New Cue #644 November 20: Lael Neale, The Cindys, Atlas Sound, Armand Hammer, The Nightingales, Headache, Fionn Regan, Sledding, Kisser, Film Noir</title>
-<link>https://thenewcue.substack.com/p/the-new-cue-644-november-20-lael</link>
-<guid isPermaLink="true">https://thenewcue.substack.com/p/the-new-cue-644-november-20-lael</guid>
-<pubDate>Fri, 20 Nov 2026 10:01:13 +0000</pubDate>
-<category>Music newsletter</category>
-<description>“We’re like Andy Dufresne here”</description>
-<media:thumbnail url="https://substackcdn.com/image/fetch/$s_!fShz!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb35e00d0-6120-44f1-9b74-f80475c40b40_800x800.png"/>
 </item>
 </channel>
 </rss>

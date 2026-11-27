@@ -4,8 +4,17 @@
 <title>B-Side Music RSS: Podcasts</title>
 <link>https://For3stpunk.github.io/music-rss</link>
 <atom:link href="https://For3stpunk.github.io/music-rss/feeds/podcasts.xml" rel="self" type="application/rss+xml"/>
-<description>Podcasts from 8 recent stories across the music media directory.</description>
-<lastBuildDate>Fri, 27 Nov 2026 01:48:44 +0000</lastBuildDate>
+<description>Podcasts from 9 recent stories across the music media directory.</description>
+<lastBuildDate>Fri, 27 Nov 2026 12:44:39 +0000</lastBuildDate>
+<item>
+<title>All Songs Considered (NPR): New Music Friday: The best albums out Nov. 27</title>
+<link>https://www.npr.org/2026/11/27/nx-s1-6054010/new-music-friday-the-best-albums-out-nov-27</link>
+<guid isPermaLink="true">https://www.npr.org/2026/11/27/nx-s1-6054010/new-music-friday-the-best-albums-out-nov-27</guid>
+<pubDate>Fri, 27 Nov 2026 05:01:00 +0000</pubDate>
+<category>Music podcast</category>
+<description>In a brisk holiday episode, host Stephen Thompson breaks down new albums from Ed Maverick, Priya Ragu and Star&#x27;s Revenge. Happy Thanksgiving, and happy Record Store Day! (00:47) Album No. 1 - Ed Maverick, &#x27;Sin agua es ruta yerma&#x27; (04:24) Album No. 2 - Priya Ragu, &#x27;Madras&#x27; (06:57)</description>
+<media:thumbnail url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1126x633+0+66/resize/1280/quality/66/format/jpg/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fb8%2Ff3%2F1d103eb5450498f52ad0aaeb28b7%2Fscreenshot-2026-11-25-115115.png"/>
+</item>
 <item>
 <title>Lyrics Of Their Life: The 1975 (Part 3) - Sophomore Era &amp; Critical Acclaim</title>
 <link>https://audioboom.com/posts/8981839</link>

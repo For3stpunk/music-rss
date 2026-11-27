@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T01:48:44+00:00",
+ "updated": "2026-11-27T12:44:39+00:00",
  "feeds": {
   "NME": {
    "url": "https://www.nme.com/feed",
@@ -289,7 +289,7 @@
   "The Boot": {
    "url": "https://theboot.com/feed/",
    "status": "ok",
-   "stories": 24
+   "stories": 25
   },
   "Taste of Country": {
    "url": "https://tasteofcountry.com/feed/",
@@ -1248,7 +1248,7 @@
   },
   "Thisis50": {
    "url": "https://thisis50.com/feed/",
-   "status": "HTTPError 404",
+   "status": "URLError",
    "stories": 0
   },
   "2 Dope Boyz": {
@@ -1878,8 +1878,8 @@
   },
   "HEAVY Magazine": {
    "url": "https://heavymag.com.au/feed/",
-   "status": "HTTPError 403",
-   "stories": 0
+   "status": "ok",
+   "stories": 25
   },
   "Antichrist Metalzine": {
    "url": "https://antichristmagazine.com/feed/",
@@ -2743,7 +2743,7 @@
   },
   "Tonspion": {
    "url": "https://www.tonspion.de/rubrik/musik/pop/feed",
-   "status": "URLError",
+   "status": "no stories",
    "stories": 0
   },
   "Scandipop": {
@@ -4123,8 +4123,8 @@
   },
   "Bret Pimentel, woodwinds": {
    "url": "https://bretpimentel.com/feed/",
-   "status": "TimeoutError",
-   "stories": 0
+   "status": "ok",
+   "stories": 10
   },
   "The Trumpet Blog": {
    "url": "https://www.thetrumpetblog.com/category/product-reviews/feed/",
@@ -4298,8 +4298,8 @@
   },
   "Barking Drum": {
    "url": "https://barkingdrum.com/category/blog/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "TimeoutError",
+   "stories": 0
   },
   "Drum Set Tips": {
    "url": "https://drumsettips.org/feed/",
@@ -5178,7 +5178,7 @@
   },
   "PunkRockBeat": {
    "url": "https://www.punkrockbeat.com/feed/",
-   "status": "URLError",
+   "status": "not a feed",
    "stories": 0
   },
   "punk rock and UFOs": {
