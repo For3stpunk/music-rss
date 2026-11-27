@@ -5,7 +5,16 @@
 <link>https://For3stpunk.github.io/music-rss</link>
 <atom:link href="https://For3stpunk.github.io/music-rss/feeds/podcasts.xml" rel="self" type="application/rss+xml"/>
 <description>Podcasts from 9 recent stories across the music media directory.</description>
-<lastBuildDate>Fri, 27 Nov 2026 12:44:39 +0000</lastBuildDate>
+<lastBuildDate>Fri, 27 Nov 2026 23:32:45 +0000</lastBuildDate>
+<item>
+<title>World Cafe Words and Music: Beck on his latest album, &#x27;Ride Lonesome&#x27;</title>
+<link>https://www.npr.org/2026/11/27/nx-s1-6052395/beck-album-ride-lonesome</link>
+<guid isPermaLink="true">https://www.npr.org/2026/11/27/nx-s1-6052395/beck-album-ride-lonesome</guid>
+<pubDate>Fri, 27 Nov 2026 20:25:46 +0000</pubDate>
+<category>Music podcast</category>
+<description>Beck says putting aside the samples and synths and stripping things down to the basics on his new album was a challenge. See pcm.adswizz.com for information about our collection and use of personal data for sponsorship and to manage your podcast sponsorship preferences. NPR Priva</description>
+<media:thumbnail url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3600x2025+0+0/resize/1280/quality/66/format/jpg/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F6e%2Fb7%2Fe75858f94d6facc8b9e2d81fe3ed%2F2b6b31d3-9fdb-4384-8fd6-f3256018e5ba.jpg"/>
+</item>
 <item>
 <title>All Songs Considered (NPR): New Music Friday: The best albums out Nov. 27</title>
 <link>https://www.npr.org/2026/11/27/nx-s1-6054010/new-music-friday-the-best-albums-out-nov-27</link>
@@ -74,15 +83,6 @@
 <category>Music podcast</category>
 <description>We attempt to build a canon of music for giving thanks, spending time with friends and family, and (of course) celebrating food. NPR Music’s Stephen Thompson and Lars Gotrich join host Robin Hilton. Tell us what you think with a review on Apple or Spotify wherever you listen to p</description>
 <media:thumbnail url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x1688+0+0/resize/1280/quality/66/format/jpg/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F27%2F00%2F41d15ad749ed92eac38eb25c9789%2Fweirdalwide.jpg"/>
-</item>
-<item>
-<title>World Cafe Words and Music: The song Richard Thompson wrote in one sitting and more stories from his catalog</title>
-<link>https://www.npr.org/2026/11/20/nx-s1-6048617/richard-thompson-world-cafe-interview</link>
-<guid isPermaLink="true">https://www.npr.org/2026/11/20/nx-s1-6048617/richard-thompson-world-cafe-interview</guid>
-<pubDate>Fri, 20 Nov 2026 17:12:39 +0000</pubDate>
-<category>Music podcast</category>
-<description>The guitarist and co-founder of Fairport Convention joins World Cafe for the latest installment of Backtracking. See pcm.adswizz.com for information about our collection and use of personal data for sponsorship and to manage your podcast sponsorship preferences. NPR Privacy Polic</description>
-<media:thumbnail url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3600x2025+0+0/resize/1280/quality/66/format/jpg/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2Ff6%2Ff8%2F7dbad3e74bc39ddb54b1669ead86%2F0df29ee7-2bad-4615-8713-df93877ba5b5.jpg"/>
 </item>
 </channel>
 </rss>

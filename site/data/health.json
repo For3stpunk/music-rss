@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T12:44:39+00:00",
+ "updated": "2026-11-27T23:32:45+00:00",
  "feeds": {
   "NME": {
    "url": "https://www.nme.com/feed",
@@ -948,8 +948,8 @@
   },
   "She Makes Music": {
    "url": "https://shemakesmusic.co.uk/feed/",
-   "status": "not a feed",
-   "stories": 0
+   "status": "ok",
+   "stories": 10
   },
   "Soundsphere": {
    "url": "https://www.soundspheremag.com/feed/",
@@ -1048,8 +1048,8 @@
   },
   "Alt Citizen": {
    "url": "http://altcitizen.com/feed/",
-   "status": "TimeoutError",
-   "stories": 0
+   "status": "ok",
+   "stories": 12
   },
   "Powerpopaholic": {
    "url": "https://feeds.feedburner.com/Powerpopaholic",
@@ -1248,7 +1248,7 @@
   },
   "Thisis50": {
    "url": "https://thisis50.com/feed/",
-   "status": "URLError",
+   "status": "HTTPError 404",
    "stories": 0
   },
   "2 Dope Boyz": {
@@ -1413,7 +1413,7 @@
   },
   "The African Hip Hop Blog": {
    "url": "https://www.africanhhb.com/feed",
-   "status": "HTTPError 404",
+   "status": "HTTPError 401",
    "stories": 0
   },
   "Rapzilla": {
@@ -3188,13 +3188,13 @@
   },
   "Afro House King": {
    "url": "https://afrohouseking.com/feed/",
-   "status": "TimeoutError",
+   "status": "not a feed",
    "stories": 0
   },
   "Sho Mag": {
    "url": "https://shomag.com/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "not a feed",
+   "stories": 0
   },
   "House of Frankie": {
    "url": "https://www.houseoffrankie.com/feed/",
@@ -3378,7 +3378,7 @@
   },
   "Synthbeat": {
    "url": "https://www.synthbeat.com/category/ambient-music/feed/",
-   "status": "URLError",
+   "status": "not a feed",
    "stories": 0
   },
   "Ambient Light Blog": {
@@ -3793,8 +3793,8 @@
   },
   "Euterpe Synthesizer Laboratories": {
    "url": "https://euterpesynth.com/feed/",
-   "status": "HTTPError 403",
-   "stories": 0
+   "status": "ok",
+   "stories": 9
   },
   "Retro Synth Ads": {
    "url": "http://feeds.feedburner.com/RetroSynthAds",
@@ -3893,8 +3893,8 @@
   },
   "Performing Songwriter": {
    "url": "https://performingsongwriter.com/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 502",
+   "stories": 0
   },
   "UK Songwriting Contest": {
    "url": "https://www.songwritingcontest.co.uk/1/feed",
@@ -3943,8 +3943,8 @@
   },
   "In Audio Works": {
    "url": "https://inaudioworks.com/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "URLError",
+   "stories": 0
   },
   "DJ Producers": {
    "url": "https://www.djproducers.it/feed/",
@@ -4298,8 +4298,8 @@
   },
   "Barking Drum": {
    "url": "https://barkingdrum.com/category/blog/feed/",
-   "status": "TimeoutError",
-   "stories": 0
+   "status": "ok",
+   "stories": 10
   },
   "Drum Set Tips": {
    "url": "https://drumsettips.org/feed/",
@@ -4693,8 +4693,8 @@
   },
   "HELLOKPOP": {
    "url": "https://www.hellokpop.com/category/kpop/feed/",
-   "status": "ok",
-   "stories": 3
+   "status": "HTTPError 502",
+   "stories": 0
   },
   "Big B Radio": {
    "url": "https://bigbradio.net/feed",
@@ -5043,8 +5043,8 @@
   },
   "Folklounge": {
    "url": "https://www.folklounge.org/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 508",
+   "stories": 0
   },
   "Music You Need To Hear": {
    "url": "https://musicyouneedtohear.com/tag/folk/feed/",
@@ -5178,7 +5178,7 @@
   },
   "PunkRockBeat": {
    "url": "https://www.punkrockbeat.com/feed/",
-   "status": "not a feed",
+   "status": "URLError",
    "stories": 0
   },
   "punk rock and UFOs": {
