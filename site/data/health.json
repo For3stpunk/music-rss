@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T23:32:45+00:00",
+ "updated": "2026-11-28T08:02:58+00:00",
  "feeds": {
   "NME": {
    "url": "https://www.nme.com/feed",
@@ -818,7 +818,7 @@
   },
   "IndieTapes": {
    "url": "https://indie-tapes.com/rss",
-   "status": "HTTPError 429",
+   "status": "HTTPError 404",
    "stories": 0
   },
   "Kid with a Vinyl": {
@@ -1034,7 +1034,7 @@
   "Los Angeles Times – Music": {
    "url": "https://www.latimes.com/entertainment-arts/music.rss",
    "status": "ok",
-   "stories": 17
+   "stories": 16
   },
   "Ear To The Ground Music": {
    "url": "https://www.eartothegroundmusic.co/feed/",
@@ -1048,8 +1048,8 @@
   },
   "Alt Citizen": {
    "url": "http://altcitizen.com/feed/",
-   "status": "ok",
-   "stories": 12
+   "status": "TimeoutError",
+   "stories": 0
   },
   "Powerpopaholic": {
    "url": "https://feeds.feedburner.com/Powerpopaholic",
@@ -2569,7 +2569,7 @@
   "antiMusic": {
    "url": "https://feeds.feedburner.com/antiMusicNews",
    "status": "ok",
-   "stories": 25
+   "stories": 17
   },
   "Rock Informer": {
    "url": "https://rockinformer.com/feed/",
@@ -3058,8 +3058,8 @@
   },
   "Rock NYC Live": {
    "url": "https://rocknyc.live/category/news/feed",
-   "status": "ok",
-   "stories": 25
+   "status": "TimeoutError",
+   "stories": 0
   },
   "Elicit Magazine": {
    "url": "https://www.elicitmagazine.com/feed/",
@@ -3378,7 +3378,7 @@
   },
   "Synthbeat": {
    "url": "https://www.synthbeat.com/category/ambient-music/feed/",
-   "status": "not a feed",
+   "status": "URLError",
    "stories": 0
   },
   "Ambient Light Blog": {
@@ -3893,8 +3893,8 @@
   },
   "Performing Songwriter": {
    "url": "https://performingsongwriter.com/feed/",
-   "status": "HTTPError 502",
-   "stories": 0
+   "status": "ok",
+   "stories": 10
   },
   "UK Songwriting Contest": {
    "url": "https://www.songwritingcontest.co.uk/1/feed",
@@ -4298,8 +4298,8 @@
   },
   "Barking Drum": {
    "url": "https://barkingdrum.com/category/blog/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "TimeoutError",
+   "stories": 0
   },
   "Drum Set Tips": {
    "url": "https://drumsettips.org/feed/",
@@ -5043,8 +5043,8 @@
   },
   "Folklounge": {
    "url": "https://www.folklounge.org/feed/",
-   "status": "HTTPError 508",
-   "stories": 0
+   "status": "ok",
+   "stories": 10
   },
   "Music You Need To Hear": {
    "url": "https://musicyouneedtohear.com/tag/folk/feed/",
