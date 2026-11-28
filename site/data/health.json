@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T08:02:58+00:00",
+ "updated": "2026-11-28T17:40:34+00:00",
  "feeds": {
   "NME": {
    "url": "https://www.nme.com/feed",
@@ -103,13 +103,13 @@
   },
   "HighClouds": {
    "url": "https://highclouds.org/feed/",
-   "status": "ok",
-   "stories": 8
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "We All Want Someone To Shout For": {
    "url": "https://weallwantsomeone.org/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "Atwood Magazine": {
    "url": "https://atwoodmagazine.com/feed/",
@@ -198,8 +198,8 @@
   },
   "Dancing Astronaut": {
    "url": "https://dancingastronaut.com/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "EDM Identity": {
    "url": "https://edmidentity.com/feed/",
@@ -208,8 +208,8 @@
   },
   "EDM Sauce": {
    "url": "https://www.edmsauce.com/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "The Nocturnal Times": {
    "url": "https://www.thenocturnaltimes.com/feed/",
@@ -268,8 +268,8 @@
   },
   "Louder Than War": {
    "url": "https://louderthanwar.com/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "not a feed",
+   "stories": 0
   },
   "US Rocker": {
    "url": "https://californiarocker.com/feed/",
@@ -278,8 +278,8 @@
   },
   "Depth Magazine": {
    "url": "http://www.depthmag.com/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "Saving Country Music": {
    "url": "https://savingcountrymusic.com/feed/",
@@ -353,8 +353,8 @@
   },
   "Seen and Heard International": {
    "url": "https://seenandheard-international.com/feed/",
-   "status": "ok",
-   "stories": 15
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "Riddimstream": {
    "url": "https://feeds.feedburner.com/riddimstream",
@@ -363,8 +363,8 @@
   },
   "NgGospel": {
    "url": "https://nggospel.com/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "Brighton Music Blog": {
    "url": "https://brightonmusicblog.co.uk/feed/",
@@ -548,8 +548,8 @@
   },
   "Rock Sound": {
    "url": "https://rocksound.tv/feed",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "Relix": {
    "url": "https://relix.com/feed/",
@@ -593,8 +593,8 @@
   },
   "Country Music Rocks": {
    "url": "https://countrymusicrocks.net/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "Clash": {
    "url": "https://www.clashmusic.com/feed/",
@@ -648,8 +648,8 @@
   },
   "Under the Radar": {
    "url": "https://www.undertheradarmag.com/site/rss",
-   "status": "ok",
-   "stories": 25
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "Jamsphere": {
    "url": "https://jamsphere.com/feed",
@@ -693,8 +693,8 @@
   },
   "Indie Music Spin": {
    "url": "http://indiemusicspin.com/feed/",
-   "status": "ok",
-   "stories": 15
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "Jammerzine": {
    "url": "https://jammerzine.com/feed/",
@@ -713,8 +713,8 @@
   },
   "Indie Dock": {
    "url": "https://indiedockmusicblog.co.uk/?feed=rss2",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "Indie Obsessive": {
    "url": "http://indieobsessive.blogspot.com/feeds/posts/default?alt=rss",
@@ -738,13 +738,13 @@
   },
   "NoEsFm": {
    "url": "https://noesfm.com/feed/",
-   "status": "ok",
-   "stories": 7
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "Neon Filler": {
    "url": "http://www.neonfiller.com/wordpress/?feed=rss2",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "Le Future Wave": {
    "url": "https://lefuturewave.com/feed/",
@@ -818,7 +818,7 @@
   },
   "IndieTapes": {
    "url": "https://indie-tapes.com/rss",
-   "status": "HTTPError 404",
+   "status": "HTTPError 429",
    "stories": 0
   },
   "Kid with a Vinyl": {
@@ -888,8 +888,8 @@
   },
   "Raven Sings The Blues": {
    "url": "https://www.ravensingstheblues.com/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "That Grape Juice": {
    "url": "https://thatgrapejuice.net/feed/",
@@ -913,13 +913,13 @@
   },
   "Synthian": {
    "url": "https://synthian.net/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "Dave Rave": {
    "url": "https://daverave.co.uk/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "Nordic Music Central": {
    "url": "https://www.nordicmusiccentral.com/feed/",
@@ -948,8 +948,8 @@
   },
   "She Makes Music": {
    "url": "https://shemakesmusic.co.uk/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "Soundsphere": {
    "url": "https://www.soundspheremag.com/feed/",
@@ -958,8 +958,8 @@
   },
   "Buzz Magazine": {
    "url": "https://www.buzzmag.co.uk/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "Music for the Misfits": {
    "url": "https://musicforthemisfits.com/feed/",
@@ -978,8 +978,8 @@
   },
   "Stamp The Wax": {
    "url": "https://www.stampthewax.com/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "Talk About Pop Music": {
    "url": "https://talkaboutpopmusic.com/feed/",
@@ -1003,8 +1003,8 @@
   },
   "Shinyl": {
    "url": "https://www.shinyl.co.uk/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "IQ Magazine": {
    "url": "https://www.iq-mag.net/feed/",
@@ -1038,8 +1038,8 @@
   },
   "Ear To The Ground Music": {
    "url": "https://www.eartothegroundmusic.co/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "Largehearted Boy": {
    "url": "https://largeheartedboy.com/feed/",
@@ -1048,8 +1048,8 @@
   },
   "Alt Citizen": {
    "url": "http://altcitizen.com/feed/",
-   "status": "TimeoutError",
-   "stories": 0
+   "status": "ok",
+   "stories": 12
   },
   "Powerpopaholic": {
    "url": "https://feeds.feedburner.com/Powerpopaholic",
@@ -1073,8 +1073,8 @@
   },
   "NYS Music": {
    "url": "https://nysmusic.com/feed/",
-   "status": "ok",
-   "stories": 12
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "Sound of Boston": {
    "url": "https://soundofboston.com/feed/",
@@ -1118,8 +1118,8 @@
   },
   "New Music USA": {
    "url": "https://newmusicusa.org/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "Gapplegate Classical-Modern": {
    "url": "https://classicalmodernmusic.blogspot.com/feeds/posts/default?alt=rss",
@@ -1353,8 +1353,8 @@
   },
   "MemphisRap": {
    "url": "https://memphisrap.com/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "HOT 97": {
    "url": "https://www.hot97.com/feed/",
@@ -1438,8 +1438,8 @@
   },
   "Unkut": {
    "url": "https://unkut.com/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "Hip Hop Golden Age": {
    "url": "https://hiphopgoldenage.com/feed/",
@@ -1548,8 +1548,8 @@
   },
   "We Rave You": {
    "url": "https://weraveyou.com/feed/",
-   "status": "ok",
-   "stories": 20
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "XLR8R": {
    "url": "https://xlr8r.com/feed/",
@@ -1563,8 +1563,8 @@
   },
   "Daily Beat": {
    "url": "https://daily-beat.com/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "EDM Chicago": {
    "url": "https://www.edmchicago.com/feed/",
@@ -1693,18 +1693,18 @@
   },
   "EDM Den": {
    "url": "https://edmden.com/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "EDM World Magazine": {
    "url": "https://edmworldmagazine.com/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "657 Deejays": {
    "url": "https://www.657deejays.com/feed/",
-   "status": "ok",
-   "stories": 15
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "Conscious Electronic": {
    "url": "https://consciouselectronic.com/feed/",
@@ -1718,7 +1718,7 @@
   },
   "Mix247EDM": {
    "url": "https://mix247edm.com/feed/",
-   "status": "HTTPError 404",
+   "status": "HTTPError 415",
    "stories": 0
   },
   "Electric Mode": {
@@ -1768,8 +1768,8 @@
   },
   "By The Wavs": {
    "url": "https://bythewavs.com/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "ilictronix": {
    "url": "https://feeds.feedburner.com/Ilictronix",
@@ -1798,13 +1798,13 @@
   },
   "Hammarica": {
    "url": "https://www.hammarica.com/feed/",
-   "status": "ok",
-   "stories": 11
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "EDM TV": {
    "url": "https://edm-tv.com/feed/",
-   "status": "ok",
-   "stories": 11
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "The Daily Frequency": {
    "url": "https://thedailyfrequency.com/feed/",
@@ -1833,8 +1833,8 @@
   },
   "Electrofans": {
    "url": "https://www.electrofans.com/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "EDMCult": {
    "url": "https://edmcult.com/feed/",
@@ -1868,8 +1868,8 @@
   },
   "Metal Shout": {
    "url": "https://metalshout.com/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "Sleaze Roxx": {
    "url": "https://sleazeroxx.com/feed/",
@@ -1928,8 +1928,8 @@
   },
   "Last Rites": {
    "url": "https://yourlastrites.com/feed/",
-   "status": "ok",
-   "stories": 8
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "Angry Metal Guy": {
    "url": "https://www.angrymetalguy.com/feed/",
@@ -1958,8 +1958,8 @@
   },
   "Kronos Mortus": {
    "url": "https://kronosmortusnews.com/feed/",
-   "status": "ok",
-   "stories": 25
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "Wonderbox Metal": {
    "url": "https://wonderboxmetal.com/feed/",
@@ -1993,8 +1993,8 @@
   },
   "Infrared Magazine": {
    "url": "https://infraredmag.com/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "Piercing Metal": {
    "url": "https://www.piercingmetal.com/feed/",
@@ -2043,8 +2043,8 @@
   },
   "Rock'N'Growl": {
    "url": "https://www.rockngrowl.com/feed",
-   "status": "ok",
-   "stories": 10
+   "status": "not a feed",
+   "stories": 0
   },
   "Metal Bandcamp": {
    "url": "http://feeds.metalbandcamp.com/metalbandcamp",
@@ -2053,13 +2053,13 @@
   },
   "Zero Tolerance": {
    "url": "https://www.ztmag.com/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "Iron Fist Magazine": {
    "url": "http://www.ironfistzine.com/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "Screamer Magazine": {
    "url": "https://screamermagazine.com/feed/",
@@ -2198,8 +2198,8 @@
   },
   "UK Vibe": {
    "url": "https://ukvibe.org/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "Bebop Spoken Here": {
    "url": "https://lance-bebopspokenhere.blogspot.com/feeds/posts/default",
@@ -2243,8 +2243,8 @@
   },
   "EarRelevant": {
    "url": "http://www.earrelevant.net/feed/",
-   "status": "ok",
-   "stories": 5
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "New York Classical Review": {
    "url": "https://feeds.feedburner.com/TheClassicalReview",
@@ -2383,8 +2383,8 @@
   },
   "Blues Matters": {
    "url": "https://bluesmatters.com/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "Kerrang!": {
    "url": "https://www.kerrang.com/feed.rss",
@@ -2423,8 +2423,8 @@
   },
   "DMME.net": {
    "url": "https://dmme.net/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "Classic Rock Covers Library": {
    "url": "https://www.classic-rock-covers.com/feeds/posts/default",
@@ -2493,8 +2493,8 @@
   },
   "Lo-Fi Music Blog": {
    "url": "https://lofimusicblog.com/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "Indietronica": {
    "url": "https://indietronica.org/feed/",
@@ -2523,8 +2523,8 @@
   },
   "More Fuzz": {
    "url": "https://morefuzz.net/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "Heavy Planet": {
    "url": "http://feeds.feedburner.com/HeavyPlanetStonerRockBlog",
@@ -2558,8 +2558,8 @@
   },
   "Blues Rock Review": {
    "url": "https://bluesrockreview.com/feed",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "Rock and Blues Muse": {
    "url": "https://www.rockandbluesmuse.com/feed/",
@@ -2603,8 +2603,8 @@
   },
   "JROCK News": {
    "url": "https://jrocknews.com/feed",
-   "status": "ok",
-   "stories": 20
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "Go Venue Magazine": {
    "url": "https://www.govenuemagazine.com/feed/",
@@ -2613,8 +2613,8 @@
   },
   "Montreal Rocks": {
    "url": "https://montrealrocks.ca/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "Singersroom": {
    "url": "https://singersroom.com/feed/",
@@ -2628,8 +2628,8 @@
   },
   "Rated R&B": {
    "url": "https://ratedrnb.com/feed/",
-   "status": "ok",
-   "stories": 6
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "Fresh Hip-Hop & R&B": {
    "url": "http://www.freshhiphoprnb.com/feed/",
@@ -2713,8 +2713,8 @@
   },
   "Popmusic Life": {
    "url": "https://popmusic.life/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "J-Generation": {
    "url": "https://j-generation.com/feed/",
@@ -2863,18 +2863,18 @@
   },
   "Said the Gramophone": {
    "url": "https://saidthegramophone.com/atom.xml",
-   "status": "ok",
-   "stories": 15
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "HipHopCanada": {
    "url": "https://hiphopcanada.com/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "The Spill Magazine": {
    "url": "http://spillmagazine.com/feed/",
-   "status": "ok",
-   "stories": 20
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "That Eric Alper": {
    "url": "https://www.thatericalper.com/feed/",
@@ -2993,8 +2993,8 @@
   },
   "Nashville Music Guide": {
    "url": "https://nashvillemusicguide.com/feed/",
-   "status": "ok",
-   "stories": 5
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "Nashville Lifestyles – Music": {
    "url": "https://nashvillelifestyles.com/entertainment/music/index.rss",
@@ -3013,8 +3013,8 @@
   },
   "Nashville Scene – Music": {
    "url": "https://www.nashvillescene.com/search/?f=rss&t=article&c=music&l=50&s=start_time&sd=desc",
-   "status": "HTTPError 429",
-   "stories": 0
+   "status": "ok",
+   "stories": 25
   },
   "That Nashville Sound": {
    "url": "https://feeds.feedburner.com/ThatNashvilleSound",
@@ -3043,8 +3043,8 @@
   },
   "NashvilleGab": {
    "url": "https://nashvillegab.com/feed/",
-   "status": "ok",
-   "stories": 9
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "FreeCCM": {
    "url": "https://freeccm.com/feed/",
@@ -3058,8 +3058,8 @@
   },
   "Rock NYC Live": {
    "url": "https://rocknyc.live/category/news/feed",
-   "status": "TimeoutError",
-   "stories": 0
+   "status": "ok",
+   "stories": 25
   },
   "Elicit Magazine": {
    "url": "https://www.elicitmagazine.com/feed/",
@@ -3093,23 +3093,23 @@
   },
   "Only Techno": {
    "url": "https://onlytechno.net/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "5 Magazine": {
    "url": "https://5mag.net/category/news/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "Acid Techno": {
    "url": "https://acidtechno.co.uk/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "Techno Mood": {
    "url": "https://technomood.org/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "The Groove Cartel": {
    "url": "https://thegroovecartel.com/feed/",
@@ -3148,13 +3148,13 @@
   },
   "Soundplate": {
    "url": "https://soundplate.com/feed/",
-   "status": "ok",
-   "stories": 13
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "Spirit of House": {
    "url": "https://www.spiritofhouse.com/?format=feed&type=rss",
-   "status": "ok",
-   "stories": 8
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "Knights of the Turntable": {
    "url": "https://www.knightsoftheturntable.co.uk/feed/",
@@ -3173,8 +3173,8 @@
   },
   "Pressure Radio": {
    "url": "https://pressureradio.com/blog/feed/",
-   "status": "ok",
-   "stories": 20
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "Resident Advisor": {
    "url": "https://ra.co/xml/news.xml",
@@ -3183,7 +3183,7 @@
   },
   "House Music With Love": {
    "url": "https://www.housemusicwithlove.com/feed",
-   "status": "not a feed",
+   "status": "HTTPError 415",
    "stories": 0
   },
   "Afro House King": {
@@ -3193,7 +3193,7 @@
   },
   "Sho Mag": {
    "url": "https://shomag.com/feed/",
-   "status": "not a feed",
+   "status": "HTTPError 415",
    "stories": 0
   },
   "House of Frankie": {
@@ -3233,8 +3233,8 @@
   },
   "Bass Music": {
    "url": "https://bassmusic.co/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "n3wjack's Blog": {
    "url": "https://n3wjack.net/category/dnb/feed/",
@@ -3243,8 +3243,8 @@
   },
   "BSMNT Club": {
    "url": "https://bsmnt.org/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "Drumming Tips Blog": {
    "url": "https://drummingtips.com/feed/",
@@ -3278,12 +3278,12 @@
   },
   "Destiny Events Blog": {
    "url": "https://destinyevents.ca/category/blog/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "Kmag": {
    "url": "https://kmag.co.uk/feed/",
-   "status": "not a feed",
+   "status": "HTTPError 415",
    "stories": 0
   },
   "Drum and Bass Proper": {
@@ -3313,8 +3313,8 @@
   },
   "Echo Room": {
    "url": "https://echoroom.co/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "Low Light Mixes": {
    "url": "http://lowlightmixes.blogspot.com/feeds/posts/default?alt=rss",
@@ -3433,8 +3433,8 @@
   },
   "Producer Hive": {
    "url": "https://producerhive.com/feed/",
-   "status": "ok",
-   "stories": 9
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "Dawtopia": {
    "url": "https://dawtopia.com/feed/",
@@ -3488,8 +3488,8 @@
   },
   "RecordProduction": {
    "url": "https://www.recordproduction.com/rss/",
-   "status": "ok",
-   "stories": 12
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "Fanu Music": {
    "url": "https://fanumusic.com/feed/",
@@ -3548,7 +3548,7 @@
   },
   "Whipped Cream Sounds": {
    "url": "https://www.whippedcreamsounds.com/feed/",
-   "status": "not a feed",
+   "status": "HTTPError 415",
    "stories": 0
   },
   "Recording Revolution": {
@@ -3778,7 +3778,7 @@
   },
   "Sequential": {
    "url": "https://sequential.com/news/feed/",
-   "status": "no stories",
+   "status": "HTTPError 415",
    "stories": 0
   },
   "Synthrotek": {
@@ -3813,8 +3813,8 @@
   },
   "Synths When": {
    "url": "https://www.synthswhen.com/feed/",
-   "status": "ok",
-   "stories": 3
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "Song Town": {
    "url": "https://songtown.com/feed/",
@@ -3823,8 +3823,8 @@
   },
   "Songwriting Magazine": {
    "url": "https://www.songwritingmagazine.co.uk/feed",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "SongwritingWith:Soldiers": {
    "url": "https://songwritingwithsoldiers.org/feed/",
@@ -3858,8 +3858,8 @@
   },
   "Nashville Christian Songwriters": {
    "url": "https://www.nashvillechristiansongwriters.com/feed/",
-   "status": "ok",
-   "stories": 9
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "Learn How to Write Songs": {
    "url": "https://feeds.feedburner.com/LearnHowToWriteSongs",
@@ -3868,8 +3868,8 @@
   },
   "The Essential Secrets of Songwriting": {
    "url": "https://www.secretsofsongwriting.com/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "Beatles Songwriting Academy": {
    "url": "https://beatlessongwriting.blogspot.com/feeds/posts/default?alt=rss",
@@ -3878,8 +3878,8 @@
   },
   "Twin Monarch": {
    "url": "https://twinmonarch.com/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "Robin Frederick": {
    "url": "https://robinfrederick.com/feed/",
@@ -3903,8 +3903,8 @@
   },
   "SongRegistration": {
    "url": "https://songregistration.com/blog/feed/",
-   "status": "ok",
-   "stories": 15
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "Songwriters on Process": {
    "url": "https://www.songwritersonprocess.com/blog?format=RSS",
@@ -3918,8 +3918,8 @@
   },
   "Songwriting Experts": {
    "url": "https://songwritingexperts.com/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "Global Songwriters Connection": {
    "url": "https://globalsongwriters.com/feed/",
@@ -3943,13 +3943,13 @@
   },
   "In Audio Works": {
    "url": "https://inaudioworks.com/feed/",
-   "status": "URLError",
-   "stories": 0
+   "status": "ok",
+   "stories": 10
   },
   "DJ Producers": {
    "url": "https://www.djproducers.it/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "DJ Life Magazine": {
    "url": "https://djlifemag.com/feed/",
@@ -3988,8 +3988,8 @@
   },
   "DJ Blog": {
    "url": "http://www.djblog.org/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "DJ Times": {
    "url": "https://www.djtimes.com/feed/",
@@ -4013,7 +4013,7 @@
   },
   "The DJ Sessions": {
    "url": "https://www.thedjsessions.com/feed/",
-   "status": "HTTPError 403",
+   "status": "HTTPError 415",
    "stories": 0
   },
   "Smash the Club": {
@@ -4133,8 +4133,8 @@
   },
   "Central Music Blog": {
    "url": "https://centralmusic.com/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "Thomann Blog": {
    "url": "https://www.thomann.de/blog/en/gear/feed/",
@@ -4173,8 +4173,8 @@
   },
   "Music To Your Home Blog": {
    "url": "https://www.musictoyourhome.com/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "TuCuatro Blog": {
    "url": "https://tucuatro.com/feed/",
@@ -4278,8 +4278,8 @@
   },
   "Joe The Drummer Blog": {
    "url": "https://joethedrummer.com/drum-blog/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "David Aldridge's Drumming Blog": {
    "url": "https://davidaldridge.wordpress.com/feed/",
@@ -4313,8 +4313,8 @@
   },
   "Jost Nickel": {
    "url": "https://jostnickel.com/en/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "Drum Teachers UK": {
    "url": "https://www.drumteachers.co.uk/feed/",
@@ -4343,13 +4343,13 @@
   },
   "The Drumdoctor's Blog": {
    "url": "https://thedrumdoctor.net/feed",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "The Drum Ninja": {
    "url": "https://thedrumninja.com/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "Scott K Fish": {
    "url": "https://scottkfish.com/category/drummusic-news/feed/",
@@ -4638,8 +4638,8 @@
   },
   "K-Popped": {
    "url": "https://k-popped.com/feed/",
-   "status": "ok",
-   "stories": 5
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "KBopped": {
    "url": "https://kbopped.com/feed/",
@@ -4678,8 +4678,8 @@
   },
   "Ash Talks Kpop": {
    "url": "https://ashtalkskpop.net/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "AtrocityCL's K-Pop Review Blog": {
    "url": "https://atrocitycl.wordpress.com/feed/",
@@ -4708,18 +4708,18 @@
   },
   "KIMCHISLAP": {
    "url": "https://kimchislap.com/feed",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "Latino Music Cafe": {
    "url": "https://latinomusiccafe.com/category/latin-music-blog/feed/",
-   "status": "ok",
-   "stories": 9
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "Havana Music School Blog": {
    "url": "https://havanamusicschool.com/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "Latin Music Specialists": {
    "url": "https://www.lmsrecords.com/blog-feed.xml",
@@ -4768,7 +4768,7 @@
   },
   "Music Review World": {
    "url": "https://musicreviewworld.com/music/latin-music/feed/",
-   "status": "not a feed",
+   "status": "HTTPError 415",
    "stories": 0
   },
   "LatinHeat": {
@@ -4798,8 +4798,8 @@
   },
   "Living Blues": {
    "url": "https://livingblues.com/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "Bman's Blues Report": {
    "url": "https://www.bmansbluesreport.com/feeds/posts/default?alt=rss",
@@ -4848,8 +4848,8 @@
   },
   "Big Road Blues": {
    "url": "https://sundayblues.org/?feed=rss2",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "The Blues and Roots Music Blog": {
    "url": "http://thebluesmusicblog.blogspot.com/feeds/posts/default?alt=rss",
@@ -4923,8 +4923,8 @@
   },
   "Old Time Blues": {
    "url": "http://oldtimeblues.net/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "MusoScribe": {
    "url": "https://blog.musoscribe.com/index.php/category/blues/feed/",
@@ -5043,8 +5043,8 @@
   },
   "Folklounge": {
    "url": "https://www.folklounge.org/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 406",
+   "stories": 0
   },
   "Music You Need To Hear": {
    "url": "https://musicyouneedtohear.com/tag/folk/feed/",
@@ -5148,8 +5148,8 @@
   },
   "The Punk Site": {
    "url": "https://www.thepunksite.com/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "Like Punk Never Happened": {
    "url": "https://likepunkneverhappened.blogspot.com/feeds/posts/default",
@@ -5258,8 +5258,8 @@
   },
   "Punk Outlaw": {
    "url": "https://punkoutlawblog.com/feed/",
-   "status": "ok",
-   "stories": 20
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "Punx In Solidarity": {
    "url": "https://punxinsolidarity.wordpress.com/feed/",
@@ -5278,8 +5278,8 @@
   },
   "World A Reggae": {
    "url": "https://www.worldareggae.com/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "Top Shelf Music": {
    "url": "https://topshelfmusicmag.com/genre/reggae/feed/",
@@ -5503,8 +5503,8 @@
   },
   "Texx and the City": {
    "url": "https://texxandthecity.com/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "Music In Africa": {
    "url": "https://musicinafrica.net/feed/",
@@ -5583,8 +5583,8 @@
   },
   "Deep Groove Mono": {
    "url": "https://dgmono.com/feed/",
-   "status": "ok",
-   "stories": 10
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "Vinyl Bro": {
    "url": "https://vinylbro.com/feed/",
@@ -5633,8 +5633,8 @@
   },
   "The Record Exchange": {
    "url": "https://www.therecordexchange.com/feed/",
-   "status": "ok",
-   "stories": 5
+   "status": "HTTPError 415",
+   "stories": 0
   },
   "The Vinyl Factory": {
    "url": "https://www.thevinylfactory.com/feed",

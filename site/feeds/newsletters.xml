@@ -4,8 +4,8 @@
 <title>B-Side Music RSS: Newsletters</title>
 <link>https://For3stpunk.github.io/music-rss</link>
 <atom:link href="https://For3stpunk.github.io/music-rss/feeds/newsletters.xml" rel="self" type="application/rss+xml"/>
-<description>Newsletters from 14 recent stories across the music media directory.</description>
-<lastBuildDate>Sat, 28 Nov 2026 08:02:58 +0000</lastBuildDate>
+<description>Newsletters from 13 recent stories across the music media directory.</description>
+<lastBuildDate>Sat, 28 Nov 2026 17:40:34 +0000</lastBuildDate>
 <item>
 <title>The Honest Broker (Ted Gioia): Are These the 100 Best Songs of All Time? Really?</title>
 <link>https://www.honest-broker.com/p/are-these-the-100-best-songs-of-all</link>
@@ -122,15 +122,6 @@
 <category>Music newsletter</category>
 <description>“We’re doing this award-giving despite being opposed to the idea of awards...”</description>
 <media:thumbnail url="https://substackcdn.com/image/fetch/$s_!fShz!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb35e00d0-6120-44f1-9b74-f80475c40b40_800x800.png"/>
-</item>
-<item>
-<title>The Honest Broker (Ted Gioia): Nine Lessons Hollywood Can Learn from Studio Ghibli</title>
-<link>https://www.honest-broker.com/p/nine-lessons-hollywood-can-learn</link>
-<guid isPermaLink="true">https://www.honest-broker.com/p/nine-lessons-hollywood-can-learn</guid>
-<pubDate>Sat, 21 Nov 2026 18:54:58 +0000</pubDate>
-<category>Music newsletter</category>
-<description>I wait until late at night when everybody else is asleep. And then I pursue my secret pastime....</description>
-<media:thumbnail url="https://substackcdn.com/image/fetch/$s_!ku_q!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc1131978-df67-4f37-8c8b-527860dbec48_1660x940.png"/>
 </item>
 </channel>
 </rss>
